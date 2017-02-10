@@ -31,14 +31,14 @@ body a:link, body .g-novisited a:visited{ text-decoration:none !important;}
 #logo{ float:left; padding:0 0 6px;}
 #search {float:right;overflow: hidden;position: relative;width:300px; height:40px; margin:16px 0 0; border:solid 1px #aaaaaa; border-radius:5px;}
 #search input[type="text"] {background: #fff;border: 0 none;font:400 14px/38px "Roboto",sans-serif;height:38px;text-indent: 10px;width:100%; color:#000000; }
-#search input[type="submit"], #search input[type="button"] {background:#32435d url(https://cdn.rawgit.com/autobuff/eBay/1db2c03e/magnify.png) no-repeat scroll 50% 50%;border: 0 none;height:38px;position: absolute;right: 0;top: 0;width: 40px; cursor:pointer; font-size:0;}
+#search input[type="submit"], #search input[type="button"] {background:#b9b9b9 url(https://cdn.rawgit.com/autobuff/eBay/1db2c03e/magnify.png) no-repeat scroll 50% 50%;border: 0 none;height:38px;position: absolute;right: 0;top: 0;width: 40px; cursor:pointer; font-size:0;}
 .top_white{ float:right; padding:15px 0 25px;}
 
 #nav-btn{ display:none;}
 #navigation-panel{clear:both; position:relative; background:#262626;}
 #navigation-panel ul{ margin-bottom:0;}
 #navigation-panel ul li{ float:left; position:relative;}
-#navigation-panel ul li a{ display:block; color:#fff;font:400 15px/47px 'Oswald'; text-transform:uppercase; padding:0 62px;}
+#navigation-panel ul li a{ display:block; color:#fff;font:400 15px/47px 'Arial'; text-transform:uppercase; padding:0 62px;}
 #navigation-panel ul li ul li a{ padding:0 15px;}
 #navigation-panel ul li a:hover, #navigation-panel ul li a:focus{ color:#32435d;}
 #navigation-panel ul li:first-child a{ color:#b9b9b9;}
@@ -48,7 +48,7 @@ body a:link, body .g-novisited a:visited{ text-decoration:none !important;}
 99;}
 #navigation-panel ul ul ul{ position:absolute; left:100%; top:0; background:#682303; box-shadow:0 0 5px #000;}
 #navigation-panel ul ul li{ float:none; padding:1px 0 0;}
-#navigation-panel ul ul li a{ white-space:nowrap; font:400 17px/40px 'Oswald';}
+#navigation-panel ul ul li a{ white-space:nowrap; font:400 17px/40px 'Arial';}
 #navigation-panel input[type="checkbox"]{ display:none;}
 #navigation-panel input[type="checkbox"]:checked+ul{ display:block;}
 
