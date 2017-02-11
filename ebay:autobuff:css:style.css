@@ -42,17 +42,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2c2c2', end
 .top_white{ float:right; padding:15px 0 25px;}
 
 #nav-btn{ display:none;}
-#navigation-panel{clear:both; position:relative; background: #ffffff; /* Old browsers */
-background: -moz-linear-gradient(top,  #ffffff 0%, #c2c2c2 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #ffffff 0%,#c2c2c2 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #ffffff 0%,#c2c2c2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c2c2c2',GradientType=0 ); /* IE6-9 */;}
+#navigation-panel{clear:both; position:relative; background: #262626; }
 #navigation-panel ul{ margin-bottom:0;}
 #navigation-panel ul li{ float:left; position:relative;}
 #navigation-panel ul li a{ display:block; color:#b9b9b9;font:400 13px/45px 'Arial'; text-transform:uppercase; padding:0 62px;}
 #navigation-panel ul li ul li a{ padding:0 15px;}
 #navigation-panel ul li a:hover, #navigation-panel ul li a:focus{ color:#32435d;}
-#navigation-panel ul li:first-child a{ color:#2e2d2c;}
+#navigation-panel ul li:first-child a{ color:#b9b9b9;}
 #navigation-panel ul li.hasmenu > a{ background-image:url(../images/submenu.png); background-repeat:no-repeat; background-position:calc(100% - 15px) 50%; cursor:pointer;}
 #navigation-panel ul li .submenu{ display:none;}
 #navigation-panel ul ul{ position:absolute; left:0; top:100%; background:#3c1706; min-width:230px; display:none; border-radius:0 0 4px 4px; z-index:
