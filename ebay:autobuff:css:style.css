@@ -209,13 +209,13 @@ table.pgbc{ background: none !important; padding:0 !important; border:0 !importa
 #LeftPanel ul{ background:#f9f9f9; margin:0; }
 #LeftPanel ul li{ margin:0 !important; list-style-type:none !important; border-top:solid 1px #efe9e9;}
 #LeftPanel ul li a{
-font:400 15px/40px "Roboto",sans-serif; display:block; padding:0 0 0 25px; color:#000; background:#efe9e9; text-decoration:none;  transition: all 300ms ease-out 0s; text-transform:capitalize;}
+font:400 15px/40px "Roboto",sans-serif; display:block; padding:0 0 0 25px; color:#000; background:#f2efef; text-decoration:none;  transition: all 300ms ease-out 0s; text-transform:capitalize;}
 #LeftPanel ul li:hover a{ background:#231f20; color:#fff;}
 
 #LeftPanel ul li span{
 font:400 15px/40px "Roboto",sans-serif; display:block; padding:0 0 0 25px;  text-decoration:none;   color:#fff; background:#231f20;}
 
-#LeftPanel ul ul{ list-style-type:none !important; padding:0!important; background:#efe9e9; padding:0 7px;}
+#LeftPanel ul ul{ list-style-type:none !important; padding:0!important; background:#f2efef; padding:0 7px;}
 #LeftPanel ul ul li > a{font:400 13px/38px "Roboto",sans-serif; display:block; padding:0 0 0 34px; background-repeat:no-repeat; color:#000; text-transform:capitalize;  text-decoration:none;}
 #LeftPanel ul ul li:hover > a, #LeftPanel ul ul li > span{font:400 13px/38px "Roboto",sans-serif; display:block; padding:0 0 0 34px;  color:#fff; text-transform:capitalize;  text-decoration:none; background:#231f20;} 
 
