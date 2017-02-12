@@ -1,0 +1,19 @@
+/********* BEGIN style footer ***********/
+	.footer-container{ margin-top:90px;position:relative; top:2px;}
+	.footer-bottom{background:#262626;}
+	.box-footer{float:left; width:33.3%;margin:40px 0px;}
+	.box-footer h2{font-family:'Oswald' !important; font-size:25px; color:#f2f2f2; text-transform:uppercase; padding-bottom:15px; line-height:25px; }
+	.box-footer  p{font-family:'PT Sans' ; font-size:15px; color:#bfbfbf; line-height:22px;  }
+	.box-footer  ul li a{font-family:'PT Sans' ; font-size:15px; color:#b6b6b6; line-height:21px; padding:4px 0px; display: inline-block;}
+	.box-footer  ul li a:hover, .box-footer  ul li a:active{  color:#7633ff;  }
+	.box-footer:nth-child(2n)  a{font-family:'Oswald' !important;  font-size:20px; color:#fff;    background:#5c00db; padding:10px 36px; border-radius:7px; -webkit-border-radius:7px; -moz-border-radius:7px; display: inline-block; margin-top:17px; line-height:28px;}
+	.box-footer:nth-child(2n)  a:hover{     background:#410198;   }
+	.box-footer:nth-child(2n){   padding-left:40px;}
+	.box-footer:last-child{ width:auto !important; float:right;}
+	.box-footer:last-child h2{ padding-bottom:27px;}
+	.footer-copyright{background:#383838;}
+	.footer-copyright .footer-box { display: table; width:100%;}
+	.footer-copyright .footer-box > div {padding:15px 0px; display: table-cell; vertical-align:middle;}
+	.footer-copyright .footer-box > div:last-child{text-align:right;}
+	.footer-copyright p{color:#fff; font-size:15px; font-family:'PT Sans';}
+/********* END style footer ***********/
