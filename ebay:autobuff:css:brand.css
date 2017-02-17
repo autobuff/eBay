@@ -671,7 +671,7 @@ article img {
   .list-brand #slider-product #brand49:checked ~ #controls-product label:nth-child(49),
 	.list-brand #slider-product #brand50:checked ~ #controls-product label:nth-child(49){ 
 		background:none ;		
-		background: rgba(0, 0, 0, 0) url("../images/PS-bg.png") no-repeat scroll 0 -420px;
+		background: rgba(0, 0, 0, 0) url("https://cdn.rawgit.com/autobuff/eBay/bf7494d7/PS-bg.png") no-repeat scroll 0 -420px;
 		display: block;
 		opacity: 1;
 		right: 0px;
@@ -681,7 +681,7 @@ article img {
 	}
 	.list-brand #slider-product input[name="brand"]:checked  +  input[name="brand"]  + #slides-product  + #controls-product label:nth-child(2){
 		background:none ;		
-		background: rgba(0, 0, 0, 0) url("../images/PS-bg.png") no-repeat scroll 0 -420px;
+		background: rgba(0, 0, 0, 0) url("https://cdn.rawgit.com/autobuff/eBay/bf7494d7/PS-bg.png") no-repeat scroll 0 -420px;
 		display: block;
 		opacity: 1;
 		right: 0px;
@@ -739,7 +739,7 @@ article img {
   .list-brand #slider-product #brand49:checked ~ #controls-product label:nth-child(48),
 	.list-brand #slider-product #brand50:checked ~ #controls-product label:nth-child(49){
 		background:none ;		
-		background: rgba(0, 0, 0, 0) url("../images/PS-bg.png") no-repeat scroll 0 -384px;
+		background: rgba(0, 0, 0, 0) url("https://cdn.rawgit.com/autobuff/eBay/bf7494d7/PS-bg.png") no-repeat scroll 0 -384px;
 		left:0px;
 		display: block;
 		opacity: 1;
@@ -1007,7 +1007,7 @@ article img {
   .list-brand #slider-product #brand49:checked ~ #controls-product label:nth-child(50),
   .list-brand #slider-product #brand50:checked ~ #controls-product label:nth-child(50){ 
 		background:none ;		
-		background: rgba(0, 0, 0, 0) url("../images/PS-bg.png") no-repeat scroll 0 -420px;
+		background: rgba(0, 0, 0, 0) url("https://cdn.rawgit.com/autobuff/eBay/bf7494d7/PS-bg.png") no-repeat scroll 0 -420px;
 		display: block;
 		opacity: 1;
 		right: 0px;
@@ -1064,7 +1064,7 @@ article img {
   .list-brand #slider-product #brand49:checked ~ #controls-product label:nth-child(48),
 	.list-brand #slider-product #brand50:checked ~ #controls-product label:nth-child(49){
 		background:none ;		
-		background: rgba(0, 0, 0, 0) url("../images/PS-bg.png") no-repeat scroll 0 -384px;
+		background: rgba(0, 0, 0, 0) url("https://cdn.rawgit.com/autobuff/eBay/bf7494d7/PS-bg.png") no-repeat scroll 0 -384px;
 		left:0px;
 		display: block;
 		opacity: 1;
