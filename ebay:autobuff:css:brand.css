@@ -389,7 +389,7 @@ article img {
   .list-brand #slider-product #brand49:checked ~ #controls-product label:nth-child(48),
   .list-brand #slider-product #brand50:checked ~ #controls-product label:nth-child(49){
 		background:none ;		
-		background: rgba(0, 0, 0, 0) url("https://github.com/autobuff/eBay/blob/master/slider-left.png") no-repeat scroll 0 0px;
+		background: rgba(0, 0, 0, 0) url("https://cdn.rawgit.com/autobuff/eBay/ef50c6df/slider-left.png") no-repeat scroll 0 0px;
 		left:0px;
 		display: block;
 		opacity: 1;
