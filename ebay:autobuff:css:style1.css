@@ -186,7 +186,7 @@ div.lcat{ width:100% !important;}
 #LeftPanel{ width:280px;}
 .pagecontainer > table > tbody > tr > td > table+table{    margin: 0 auto;    width:1200px; max-width:100%; margin-bottom:10px;}
 .stBadge{ position:relative; margin:103px 0 0 !important; background:#32435d;}
-.stBadge:before{ position:absolute; left:0; right:0; bottom:100%; content:""; height:103px; background:url(https://cdn.rawgit.com/autobuff/eBay/1be42ba2/footer1.png) no-repeat 50% 50% #c2c2c2;}
+.stBadge:before{ position:absolute; left:0; right:0; bottom:100%; content:""; height:103px; background:url(https://cdn.rawgit.com/autobuff/eBay/29b9ebb2/footer1.png) no-repeat 50% 50% #32435d;}
 td#CentralArea div.dynpg{ padding:1px 0 !important; /*background:#eaeaea;*/ color:#333; margin:1px 15px;font:400 15px/27px "Roboto",sans-serif;}
 td#CentralArea div.dynpg td.l{ width:33.3%; display:none;}
 td#CentralArea div.dynpg td.m{ width:33.3%;} 
