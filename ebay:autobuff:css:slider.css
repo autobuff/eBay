@@ -385,11 +385,11 @@
   opacity: .9;
 }
 .csslider1 > .cs_arrowprev {
-  left:0; margin-left:0; background:url(../images/slider-left.png) no-repeat 50% 50%; transform: translate(0, -50%); -ms-transform: translate(0 , -50%);   -webkit-transform: translate(0, -50%); background-size:100%;
+  left:0; margin-left:0; background:url(https://github.com/autobuff/eBay/blob/master/slider-left.png) no-repeat 50% 50%; transform: translate(0, -50%); -ms-transform: translate(0 , -50%);   -webkit-transform: translate(0, -50%); background-size:100%;
  
 }
 .csslider1 > .cs_arrownext {
-  right:0; margin-right:0; background:url(../images/slider-right.png) no-repeat 50% 50%;  transform: translate(0, -50%); -ms-transform: translate(0 , -50%);   -webkit-transform: translate(0, -50%); background-size:100%;
+  right:0; margin-right:0; background:url(https://cdn.rawgit.com/autobuff/eBay/5887984b/slider-right.png) no-repeat 50% 50%;  transform: translate(0, -50%); -ms-transform: translate(0 , -50%);   -webkit-transform: translate(0, -50%); background-size:100%;
   
 }
 
