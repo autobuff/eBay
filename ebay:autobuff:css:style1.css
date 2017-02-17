@@ -1,0 +1,364 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,100,600,700);
+@font-face {
+    font-family: 'WalkwayBlack';
+    src: url('../fonts/WalkwayBlack.eot');
+    src: url('../fonts/WalkwayBlack.eot') format('embedded-opentype'),
+         url('../fonts/WalkwayBlack.woff2') format('woff2'),
+         url('../fonts/WalkwayBlack.woff') format('woff'),
+         url('../fonts/WalkwayBlack.ttf') format('truetype'),
+         url('../fonts/WalkwayBlack.svg#WalkwayBlack') format('svg');
+}
+
+
+body{ padding:0; margin:0; font:400 12px/14px "Roboto",sans-serif; color:#000; background:#fff;}
+*{ box-sizing:border-box; padding:0; margin:0;}
+div:after{ clear:both; content:""; display:table;}
+.container img{ max-width:100%; vertical-align:middle;}
+body a:link, body .g-novisited a:visited{ text-decoration:none !important;}
+.ess_background ul, .ess_background ol, #footer-section ul , ul, ol{ list-style-type:none; padding:0; margin:0;}
+.ess_background div:after, ess_background ul:after, .ess_background ol:after, #footer-section ul:after, #footer-section div:after , ul:after, ol:after, div:after{ clear:both; line-height:0; content:""; visibility:hidden; display:block;}
+#header{ background:#000000;}
+
+.container { width:1200px; margin:0 auto; vertical-align:top;}
+.pagecontainer > table > tbody > tr > td > table+table{    margin: 0 auto;    width:1200px; max-width:100%}
+
+#top-section{ overflow:hidden; width:100%; display:block; background:url(../images/header-bg.jpg) no-repeat 50% 0; padding:0 0 15px; background-size:cover;}
+#CentralArea > p {    color: black;    font-size: 14px;    margin-right: 10px;    padding: 22px 0 0;    text-align: justify;}
+#header-top{ background:#1f1a17; padding:15px;}
+#logo{ float:left; padding:0 0 6px;}
+#search {float:right;overflow: hidden;position: relative;width:300px; height:40px; margin:16px 0 0; border:solid 1px #aaaaaa; border-radius:5px;}
+#search input[type="text"] {background: #fff;border: 0 none;font:400 14px/38px "Roboto",sans-serif;height:38px;text-indent: 10px;width:100%; color:#000000; }
+#search input[type="submit"], #search input[type="button"] {background:#77c9b5 url(../images/icon9.png) no-repeat scroll 50% 50%;border: 0 none;height:38px;position: absolute;right: 0;top: 0;width: 40px; cursor:pointer; font-size:0;}
+.top_white{ float:right; padding:15px 0 25px;}
+
+#nav-btn{ display:none;}
+#navigation-panel{clear:both; position:relative; background:#262626;}
+#navigation-panel ul{ margin-bottom:0;}
+#navigation-panel ul li{ float:left; position:relative;}
+#navigation-panel ul li a{ display:block; color:#fff;font:400 15px/47px 'WalkwayBlack'; text-transform:uppercase; padding:0 62px;}
+#navigation-panel ul li ul li a{ padding:0 15px;}
+#navigation-panel ul li a:hover, #navigation-panel ul li a:focus{ color:#86fdf1;}
+#navigation-panel ul li:first-child a{ color:#86fdf1;}
+#navigation-panel ul li.hasmenu > a{ background-image:url(../images/submenu.png); background-repeat:no-repeat; background-position:calc(100% - 15px) 50%; cursor:pointer;}
+#navigation-panel ul li .submenu{ display:none;}
+#navigation-panel ul ul{ position:absolute; left:0; top:100%; background:#3c1706; min-width:230px; display:none; border-radius:0 0 4px 4px; z-index:
+99;}
+#navigation-panel ul ul ul{ position:absolute; left:100%; top:0; background:#682303; box-shadow:0 0 5px #000;}
+#navigation-panel ul ul li{ float:none; padding:1px 0 0;}
+#navigation-panel ul ul li a{ white-space:nowrap; font:400 17px/40px 'WalkwayBlack';}
+#navigation-panel input[type="checkbox"]{ display:none;}
+#navigation-panel input[type="checkbox"]:checked+ul{ display:block;}
+
+#banner{ overflow:hidden; display:none;}
+#banner img{ max-width:100%; border:none; height:auto;}
+
+#banner-bottom{ background:#77c9b5; border-bottom:solid 14px #e1e1e1; border-top:solid 14px #e1e1e1;}
+
+#bodysec{  padding:0 0 30px;}
+#shipping-section{ padding:15px 0 0;}
+
+.gift1{ float: left;padding:23px 0;width:24.80%; text-align:center; box-sizing:border-box;}
+/*.gift1+.gift1{ background:url(../images/divider.png) no-repeat 0 50%;}*/
+.gift1 > div {color: #fff;display: inline-block;font:300 18px/20px "Raleway",sans-serif;padding:0 0 0 68px;position: relative;text-align: left; text-transform:capitalize;}
+.gift1 > div strong{ font:700 18px/20px "Raleway",sans-serif;}
+.gift1 > div img{ position:absolute; left:0; top:-5px;}
+.gift1:nth-child(4n+2){ background:#231f20; transform: skew(-13deg);  }
+.gift1:nth-child(4n+2) > div{  transform: skew(13deg);}
+.gift1:nth-child(4n+4){ background:#231f20; transform: skew(-13deg);}
+.gift1:nth-child(4n+4) > div{  transform: skew(13deg);}
+
+.addsection{ margin:15px 0 0;}
+.seventy{ width:66%; float:left;}
+.seventy div{ padding:15px 0 0;}
+.thirty{ width:32%; float:right;}
+.thirty div{ padding:16px 0 0;}
+
+.product_sec{ background:#fff;  margin:25px 0 0;}
+.heading {color: #000;font:400 29px/32px "Roboto",sans-serif;   padding:0 0 10px; border-bottom:double 1px #ccc; text-transform:uppercase;}
+.heading span{ font-weight:400; text-transform:capitalize; font-size:18px;}
+.heading-right {float: right;font:400 15px/30px "Raleway",sans-serif;padding: 5px;text-transform: none;}
+.heading-right select {-moz-appearance: none;background: #fff url(../images/icon10.jpg) no-repeat scroll calc(100% - 0px) 50%;border: 1px solid #888888;cursor: pointer;height: 26px;margin: 0 0 0 5px;padding: 0 24px 0 0;}
+
+
+.brandsec{ padding:20px 0;}
+.brandheading{ background:url(../images/headingbg.jpg) repeat-x 0 50%; font:400 30px/32px "Roboto",sans-serif; color:#000; text-align:center;}
+.brandheading span{ background:#fff; padding:0 30px; text-transform:uppercase;}
+.brandsec ul{ padding:20px 0 0;}
+.brandsec ul li{ float:left; margin:0 0 0 24px;}
+.brandsec ul li:first-child{ margin-left:0;}
+
+
+#right-section{ margin:0 0 0 13px; float:right; width:880px;}
+select option{ padding:3px 0; }
+/* -------for ebay-------- */
+.pager .prev a+a, .pager .next a{ display:none;}
+.pager .prev a{ display:block; background:url(../images/pager-left.png) no-repeat 50% 50%; width:20px; height:20px; border:0; float:left;}
+.pager .next a+a{ display:block; background:url(../images/pager-right.png) no-repeat 50% 50%; width:20px; height:20px; border:0; float:right;}
+.pager .prev a img, .pager .next a+a img{ display:none;}
+.pager .prev{ text-align:left;}
+.pager .next{ text-align:right;}
+.pager .pages{ text-align:center; color:#fff;}
+.pager .pages a{ color:#666;}
+.dynpg td.pages a.disabled, .dynpg td.pages a.disabled:visited{ color: #000;}
+.dynpg span.pipe {    color: #000!important;    margin: 0 3px;    padding: 0;}
+.pgbc input[type="button"], .pgbc input[type="submit"] {
+    background: #07c899;  border:0;  color: #fff;  cursor: pointer; font: 700 14px/28px "Roboto",sans-serif; height: 28px; margin: 0 0 0 5px;
+    text-align: center;    width: 67px;}
+#search form tr + tr {    display: none;}
+.stBadge{ min-width:inherit !important;}
+.stBadge > img{ display:none;}
+table{ width:100%; max-width:100%; border-collapse: collapse;  border-spacing: 0;}
+#fpcap{ padding:6px 5px; text-align:left;  background:#fff; border-bottom:1px solid #ccc; margin:0 0 8px;}
+#fpcap .countClass, #fpcap .matchClass, #fpcap .keywordClass{font:300 22px/40px 'Roboto', sans-serif!important; color:#000!important; display:inline-block!important; background:none; padding:0 3px;}
+.fixed{ text-align:center;}
+#fpcap .matchClass{ font-weight:400!important;}
+.ctrlbr {    border-bottom: 0 none !important;    float: right;    margin: -48px 6px 0 0;    padding: 0 4px 0 0 !important;} 
+.r3_cm{ padding:0 !important; border:0 !important;}
+.v4stabl, .cmpBr, .ctrlbr .cur img, table.gallery table.fixed div.time2, .iippl{  display: none;}
+span.pdmt .label {    float: left;    padding:3px; color:#000; display:none;}
+.ctrlbr .cur {    background:url(../images/select.png) no-repeat 100% 50% #fff; border: 1px solid #888888;    color: #000;    float: right;    padding:5px 24px 5px 3px;}
+td#CentralArea span.pdmt{ display:inline-block; padding:0 !important; float:right;}
+span.pdmt .cur{ color:#666 !important;}
+
+.fixed tr td{ display:none;}
+.fixed tr td+td{ width:100%; display:block;}
+.fixed tr+tr{ display:none;}
+.mi{ display:none;}
+.link{ display:none;}
+.mi{ text-align:left; padding:0 15px;}
+td.price{ text-align:center;}
+span.ppr, a.ppr {    background-image: url("http://q.ebaystatic.com/aw/pics/search/sprMega2.png");  background-position: -144px -64px;    background-repeat: no-repeat;}
+span.pll, a.pll {    font-family: Verdana,Arial;    font-size: x-small;    padding: 1px 0 2px 21px; color:#696969;}
+.fixed span.bin{    color: #07c899;    font:400 16px/20px "Roboto",sans-serif; float:none; letter-spacing:1px; text-align:center;}
+.basics{ font:400 14px/16px "Roboto",sans-serif; color:#696969; padding:10px 0 0;}
+.gallery{ text-align:center;}
+td.details a{ color:#333;}
+.gallery .details a{    color: #242424;    font:400 16px/18px "Roboto",sans-serif; padding:10px 0;  display:block;}
+.gallery .details a:hover{ text-decoration:none !important;}
+table.gallery .subtitle{ display:none;}
+table.gallery div.ttl{ margin:0;}
+#footer-section+img{ display:none;}
+.ess_holiday, .r3_t, .r3_bl{ display:none;}
+.ctrlbr > span.pdmt:first-child{ display:none!important;}
+.itemseparator{ display:none;}
+.grid td.left{ border-left:0px;}
+table.gallery{  box-sizing:border-box;  transition: all 300ms ease-out 0s;  box-shadow:0 0 5px #fff; padding:0 0 10px;border:solid 1px #e6e6e6; }
+table.gallery:hover{ box-shadow:0 0 15px #c5c5c5;}
+table.gallery td img.before{ display:none;}
+table.gallery td.picture{ padding:30px 0 20px!important;  }
+/*table.gallery td.picture:hover{ box-shadow:0 0 15px #c5c5c5;}*/
+table.gallery td.picture div{ margin:0 auto!important; display:block; width:98% !important; max-width:98% !important; min-height:140px; }
+table.gallery td.picture div img{ height:auto; /*min-height:218px;*/   max-width: 100%; max-width:calc(100% - 2px); -webkit-transition: all 1s ease; -moz-transition: all 1s ease;  -o-transition: all 1s ease;  -ms-transition: all 1s ease; transition: all 1s ease;}
+td.gallery{ padding:10px 7px !important; vertical-align:top;}
+table.gallery .details {   padding:0 15px 15px;}
+.holder{border:solid 1px #8a8a8a; padding:15px;}
+.prouct-listing > div {margin-top:20px;}
+.prouct-listing .thumbnail {transition: all 300ms ease-out 0s; padding:0; border:none;}
+.prouct-listing .thumbnail img{ border:solid 1px #ccc;}
+.product-names {color: #242424;font: 400 18px/20px "Roboto",sans-serif;padding: 5px 0; text-transform:uppercase;}
+.prices {color: #d02f24;font:700 14px/16px "Raleway",sans-serif;padding: 6px 0 1px;}
+td#CentralArea div.dynpg{ border-top:0px solid #ccc;}
+.v4acpcont{ margin-bottom:0 !important;}
+.v4acpcont+.v4acpcont{ display:block;}
+.v4acp{ /*display:none;*/}
+#LeftPanel .v4title{ padding:0 !important;}
+#LeftPanel h2{font:700 18px/42px "Roboto",sans-serif; color:#fff !important; text-transform:uppercase; text-align:center; background:#7dc7ea; margin:0 !important; border-radius:10px 10px 0 0; position:relative; display:none;}
+table.v4midBox{ border:none !important;}
+body a:link, body .g-novisited a:visited{ text-decoration:none !important;}
+table.v4midBox tr.v4acp_mid td.v4mid{ padding:0 !important;}
+div.lcat{ width:100% !important;}
+.heading-left, .lcat .ttl{}
+.heading-left, .lcat .ttl {background: #77c9b5 none repeat scroll 0 0;color: #fff !important;font: 700 18px/48px "Roboto",sans-serif;margin: 0 !important;text-transform: uppercase; text-indent:15px; border-radius:5px 5px 0 0;}
+.lcat .ttl a{ color:#fff;}
+.all_cats{ display:none!important;}
+.bpmsg{ display:none;}
+.r3_c, .rs_box{ border:0 !important;}
+#LeftPanel{ width:280px;}
+.pagecontainer > table > tbody > tr > td > table+table{    margin: 0 auto;    width:1200px; max-width:100%; margin-bottom:10px;}
+.stBadge{ position:relative; margin:103px 0 0 !important; background:#77c8b5;}
+.stBadge:before{ position:absolute; left:0; right:0; bottom:100%; content:""; height:103px; background:url(https://cdn.rawgit.com/autobuff/eBay/8be25634/footer1.png) no-repeat 50% 50% #77c8b5;}
+td#CentralArea div.dynpg{ padding:1px 0 !important; /*background:#eaeaea;*/ color:#333; margin:1px 15px;font:400 15px/27px "Roboto",sans-serif;}
+td#CentralArea div.dynpg td.l{ width:33.3%; display:none;}
+td#CentralArea div.dynpg td.m{ width:33.3%;} 
+td#CentralArea div.dynpg td.r{ width:33.3%; display:none;} 
+td#CentralArea div.dynpg td.r{ text-align:right; padding-right:5px}
+td#CentralArea div.dynpg td.l{ padding-left:5px}
+.pgbc input[type="text"]{ width:87px!important; height:28px; border:none; font:400 13px/28px Arial, Helvetica, sans-serif; color:#000; margin:0 0 0 5px; box-shadow:0 0 1px #333;}
+table.pgbc{ background: none !important; padding:0 !important; border:0 !important;}
+.s_recat{ width:240px;}
+.cmpb, .sifExp{ display:none;} 
+
+.stBadge-midContent{ display:none;} 
+.stBadge-accent td{ background:none !important;}
+/* -------for ebay-------- */
+
+.container{ position:relative;}
+#newsletter{ width:335px; height:103px; position:absolute; left:451px; top:100%; margin:10px 0 0; background:url(../images/newsletter.jpg) no-repeat 50% 50%; z-index:99;}
+#newsletter a{ width:100%; height:100%; display:block;}
+
+#LeftPanel ul{ background:#f9f9f9; margin:0; }
+#LeftPanel ul li{ margin:0 !important; list-style-type:none !important; border-top:solid 1px #efe9e9;}
+#LeftPanel ul li a{
+font:400 15px/40px "Roboto",sans-serif; display:block; padding:0 0 0 25px; color:#000;  text-decoration:none;  transition: all 300ms ease-out 0s; text-transform:capitalize;}
+#LeftPanel ul li:hover a{ background:#231f20; color:#fff;}
+
+#LeftPanel ul li span{
+font:400 15px/40px "Roboto",sans-serif; display:block; padding:0 0 0 25px;  text-decoration:none;   color:#fff; background:#231f20;}
+
+#LeftPanel ul ul{ list-style-type:none !important; padding:0!important; background:#cdcdcd; padding:0 7px;}
+#LeftPanel ul ul li > a{font:400 13px/38px "Roboto",sans-serif; display:block; padding:0 0 0 34px; background-repeat:no-repeat; color:#000; text-transform:capitalize;  text-decoration:none;}
+#LeftPanel ul ul li:hover > a, #LeftPanel ul ul li > span{font:400 13px/38px "Roboto",sans-serif; display:block; padding:0 0 0 34px;  color:#fff; text-transform:capitalize;  text-decoration:none; background:#231f20;} 
+
+#LeftPanel ul li span.cnt{ display:none;}
+#LeftPanel .s_recat li span{ display:none;}
+.toplne{ display:none;}
+div#LeftPanel{ float:left; margin:20px 0 0;}
+.section-holder{ padding:15px 0 0;}
+@media only screen and (max-width: 1198px) {
+.container { width:1000px;}
+
+
+
+.pagecontainer > table > tbody > tr > td > table+table{  width:1000px;}
+/* -------for ebay-------- */
+.pagecontainer > table > tbody > tr > td > table+table{  width: 1000px;}
+.stBadge:before{ background:#77c8b5 url(../images/footer3.jpg) no-repeat 50% 0;}
+td#CentralArea div.dynpg td.l, td#CentralArea div.dynpg td.m, td#CentralArea div.dynpg td.r{ width:auto;}
+/* -------for ebay-------- */
+
+#navigation-panel ul li a {    padding: 0 42px;}
+#right-section {    width:653px;}
+td.gallery{ padding:0;}
+
+.gift1 > div{ font-size:14px;}
+.gift1{ width:24.5%;}
+.rs-pview{ margin:0 !important;}
+
+#newsletter {   left: 362px;}
+
+}
+@media only screen and (max-width: 990px) {
+.container { width:750px;}
+.pagecontainer > table > tbody > tr > td > table+table{  width:750px;}
+#navigation-panel ul li a {    padding: 0 18px;}
+#right-section {    width:496px;}
+#LeftPanel ul li a{ padding:0 0 0 13px;}
+#search{ width:260px;}
+#fpcap{ margin:0;}
+.gift1{ width:24.8%;}
+.gift1 > div strong{ font-size:14px;}
+.gift1 > div{ padding:0 0 0 58px; font-size:12px;}
+.brandsec ul li{ margin:0 0 0 8px;}
+
+/* -------for ebay-------- */
+#fpcap .countClass, #fpcap .matchClass, #fpcap .keywordClass{ font-size:16px !important;}
+#LeftPanel{ width:230px;}
+.stBadge:before{ background:url(../images/footer4.jpg) no-repeat 50% 0 #77c8b5;}
+#fpcap .keywordClass{ display:none !important;}
+
+td.gallery { padding: 10px 3px !important;}
+table.gallery .details {    padding: 0 5px 5px;}
+.fixed span.bin {  font: 700 16px/20px "Roboto",sans-serif; letter-spacing:0;}
+.gallery .details a {  font:400 16px/20px "Roboto",sans-serif;}
+td#CentralArea div.dynpg{ margin:10px 0;}
+td#CentralArea div.dynpg {  font:300 8px/10px "Roboto",sans-serif;}
+.pgbc input[type="text"]{ width:68px !important;}
+td#CentralArea div.dynpg td.l, td#CentralArea div.dynpg td.m, td#CentralArea div.dynpg td.r { width:auto;}
+.s_recat{ width:230px;}
+.ctrlbr{  margin: -42px 6px 0 0;}
+/* -------for ebay-------- */
+#newsletter {   left: 260px;}
+}
+@media screen and (max-width: 767px) {
+.container { width:auto; width:98%;}
+.pagecontainer table tbody tr td table, .pagecontainer > table > tbody > tr > td > table+table{  width:100%;}
+#header{ padding: 0 0 10px;}
+
+#logo{ float:none; width:100%; text-align:center; left:0;}
+
+#search{ float:right; margin:20px 0 0; width:240px;}
+
+.heading{ border:none; font-size:20px; line-height:22px; padding:0 0 40px; text-align:center;}
+.heading-right{ float:none;}
+.product_sec{ padding:14px;}
+
+#add-section > div:first-child{ margin: 1px 0 10px;}
+#add-section > div { float: none; margin: 15px 0 0; width:100%; text-align:center;}
+#navigation-panel{ padding:0; float:left; width:50px; margin:-55px 0 0 10px; position:relative; z-index:99; background:none;}
+#nav-btn{ display:block; margin:10px 5px 0; background:url(../images/navigation.png) no-repeat 0 50%; font-size:0; height:32px; color:#fff; text-transform:uppercase; cursor:pointer; border-radius:4px;}
+#navigation-panel ul{ width:290px; display:none; padding:0; background:#666; box-shadow:0 0 4px #323232; position:absolute; left:0; top:100%;}
+#navigation-panel ul li, #navigation-panel ul li:last-child{ float:none; text-align:left;}
+#navigation-panel ul li, #navigation-panel ul li+li{ background:none; border-top:solid 1px #323232; padding:0; border-left:none;}
+#navigation-panel ul li a{ line-height:40px;}
+#navigation-panel ul li.hasmenu > a{ display:block;}
+#navigation-panel ul li.hasmenu .submenu{ background:url(../images/submenu.png) no-repeat 50% 50%; width:14px; height:14px; display:block; position:absolute; top:10px; right:5px; display:block;}
+#navigation-panel ul li.hasmenu > a{ background-image:none;}
+#navigation-panel ul ul{ position:relative; width:auto; min-width:inherit; top:auto; left:auto; background:#57250e; margin:0 4px; border-radius:4px;}
+#navigation-panel ul ul ul{ position:relative; left:auto; top:auto;}
+
+.gift1{ width:100%; float:none; box-sizing:border-box; padding-left:2%;}
+.gift1 > div{ font-size:16px; width:271px;}
+.gift1 > div strong{ font-size:17px;}
+.gift1:nth-child(4n+2){ border:none; transform:none;}
+.gift1:nth-child(4n+2) > div{ transform:none;}
+.gift1:nth-child(4n+4){ border:none; transform:none;}
+.gift1:nth-child(4n+4) > div{ transform:none;}
+
+.seventy{ width:100%; float:none;}
+.thirty{width:100%; float:none;}
+.brandsec ul li{ float:none; margin:4px 0 0 0; text-align:center;}
+
+
+#footer-top > div{ width:100%; float:none;  text-align:center;}
+#footer-top > div ul{ display:table; margin:0 auto;}
+#left-section{ display:none;}
+#right-section{ float:none; width:auto; margin:0;}
+.s_recat{ width:auto;}
+/* -------for ebay-------- */
+#LeftPanel h2:before{ position:absolute; right:10px; top:4px; display:block; content:"+";font:400 30px/40px "Roboto",sans-serif; color:#fff;}
+#LeftPanel:hover h2:before{ content:"_"; font-weight:700; top:-10px; right:13px;}
+.ess_content_area > tbody > tr > td { display:block; float:none; width:100%;}
+.stBadge{ min-width:inherit;}
+.dynpg{ text-align:center;}
+td.gallery{display: block;    float: none;    width: auto; padding:7px !important;}
+.r3_cm{ padding:0 !important;}
+.gallery tr, .gallery tbody{ display:block;}
+.gallery > tbody{ display:block;}
+table.gallery td.picture{  display:block; text-align:center; height:auto;}
+table.gallery td.picture div{ min-height:inherit;}
+.grid td.left{ border-left:0 !important;}
+td.details{ display:block;}
+td#CentralArea span.pdmt{ display:inline-block; padding:0 !important; float:none; margin:0;}
+td#CentralArea {    display: block;    text-align: center;}
+tr.ess_holiday+tr > td{ padding:0;}
+#LeftPanel{ display:block; width:100%;}
+#LeftPanel+td{ display:none;}
+#LeftPanel+td+td{ display:block;}
+.pagecontainer > table > tbody > tr > td > table+table{  width:98%;}
+.stBadge{ margin:103px 0 0 !important;}
+.stBadge:before{ background:url(../images/footer5.jpg) no-repeat 50% 0 #77c8b5; height:103px;}
+.rs-pview{ padding:0 !important; margin:0;}
+.heading-left, .lcat .ttl{ text-align:left; text-indent:15px; position:relative;}
+.heading-left, .lcat .ttl:before{ position:absolute; right:10px; top:4px; display:block; content:"+";font:400 30px/40px "Roboto",sans-serif; color:#fff;}
+.heading-left, .lcat:hover .ttl:before{ content:"_"; font-weight:700; top:-10px; right:13px;}
+#LeftPanel .lcat > ul{ height:0px; opacity:0; overflow:hidden; transition: all 300ms ease-out 0s;}
+#LeftPanel:hover .lcat > ul{ height:auto;  opacity:1;}
+#LeftPanel .lcat > ul li:last-child{ border-bottom:1px solid #efe9e9;}
+/* -------for ebay-------- */
+#newsletter{ display:none;}
+}
+@media only screen and (max-width: 550px) {
+/* -------for ebay-------- */
+td#CentralArea div.dynpg td.l, td#CentralArea div.dynpg td.m, td#CentralArea div.dynpg td.r{ display:block;width:100%;text-align:center; padding:5px;}
+.pgbc input[type="text"]{ box-shadow:0 0 1px #333;}
+/* -------for ebay-------- */
+}
+@media only screen and (max-width: 490px) {
+#fpcap {  margin: 0 0 8px;   padding: 6px 5px 50px;  text-align: center;}
+.rs_box{ text-align:center;}
+.ctrlbr {    margin: -50px auto 20px; float:none; padding:0 !important;}
+td#CentralArea div.dynpg{ padding:10px !important;}
+}
