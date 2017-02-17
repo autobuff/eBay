@@ -20,14 +20,7 @@ div:after{ clear:both; content:""; display:table;}
 body a:link, body .g-novisited a:visited{ text-decoration:none !important;}
 .ess_background ul, .ess_background ol, #footer-section ul , ul, ol{ list-style-type:none; padding:0; margin:0;}
 .ess_background div:after, ess_background ul:after, .ess_background ol:after, #footer-section ul:after, #footer-section div:after , ul:after, ol:after, div:after{ clear:both; line-height:0; content:""; visibility:hidden; display:block;}
-#header{ 
-background: #c2c2c2; /* Old browsers */
-background: -moz-linear-gradient(top,  #c2c2c2 0%, #ffffff 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #c2c2c2 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #c2c2c2 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2c2c2', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-
-}
+#header{ background:#000000;}
 
 .container { width:1200px; margin:0 auto; vertical-align:top;}
 .pagecontainer > table > tbody > tr > td > table+table{    margin: 0 auto;    width:1200px; max-width:100%}
@@ -38,24 +31,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2c2c2', end
 #logo{ float:left; padding:0 0 6px;}
 #search {float:right;overflow: hidden;position: relative;width:300px; height:40px; margin:16px 0 0; border:solid 1px #aaaaaa; border-radius:5px;}
 #search input[type="text"] {background: #fff;border: 0 none;font:400 14px/38px "Roboto",sans-serif;height:38px;text-indent: 10px;width:100%; color:#000000; }
-#search input[type="submit"], #search input[type="button"] {background:#c2c2c2 url(https://cdn.rawgit.com/autobuff/eBay/1db2c03e/magnify.png) no-repeat scroll 50% 50%;border: 0 none;height:38px;position: absolute;right: 0;top: 0;width: 40px; cursor:pointer; font-size:0;}
+#search input[type="submit"], #search input[type="button"] {background:#32435d url(../images/icon9.png) no-repeat scroll 50% 50%;border: 0 none;height:38px;position: absolute;right: 0;top: 0;width: 40px; cursor:pointer; font-size:0;}
 .top_white{ float:right; padding:15px 0 25px;}
 
 #nav-btn{ display:none;}
-#navigation-panel{clear:both; position:relative; background: #262626; }
+#navigation-panel{clear:both; position:relative; background:#262626;}
 #navigation-panel ul{ margin-bottom:0;}
 #navigation-panel ul li{ float:left; position:relative;}
-#navigation-panel ul li a{ display:block; color:#b9b9b9;font:400 13px/45px 'Arial'; text-transform:uppercase; padding:0 62px;}
+#navigation-panel ul li a{ display:block; color:#fff;font:400 15px/47px 'WalkwayBlack'; text-transform:uppercase; padding:0 62px;}
 #navigation-panel ul li ul li a{ padding:0 15px;}
-#navigation-panel ul li a:hover, #navigation-panel ul li a:focus{ color:#32435d;}
-
+#navigation-panel ul li a:hover, #navigation-panel ul li a:focus{ color:#b9b9b9;}
+#navigation-panel ul li:first-child a{ color:#b9b9b9;}
 #navigation-panel ul li.hasmenu > a{ background-image:url(../images/submenu.png); background-repeat:no-repeat; background-position:calc(100% - 15px) 50%; cursor:pointer;}
 #navigation-panel ul li .submenu{ display:none;}
 #navigation-panel ul ul{ position:absolute; left:0; top:100%; background:#3c1706; min-width:230px; display:none; border-radius:0 0 4px 4px; z-index:
 99;}
 #navigation-panel ul ul ul{ position:absolute; left:100%; top:0; background:#682303; box-shadow:0 0 5px #000;}
 #navigation-panel ul ul li{ float:none; padding:1px 0 0;}
-#navigation-panel ul ul li a{ white-space:nowrap; font:400 17px/40px 'Arial';}
+#navigation-panel ul ul li a{ white-space:nowrap; font:400 17px/40px 'WalkwayBlack';}
 #navigation-panel input[type="checkbox"]{ display:none;}
 #navigation-panel input[type="checkbox"]:checked+ul{ display:block;}
 
@@ -209,13 +202,13 @@ table.pgbc{ background: none !important; padding:0 !important; border:0 !importa
 #LeftPanel ul{ background:#f9f9f9; margin:0; }
 #LeftPanel ul li{ margin:0 !important; list-style-type:none !important; border-top:solid 1px #efe9e9;}
 #LeftPanel ul li a{
-font:400 15px/40px "Roboto",sans-serif; display:block; padding:0 0 0 25px; color:#000; background:#f2efef; text-decoration:none;  transition: all 300ms ease-out 0s; text-transform:capitalize;}
+font:400 15px/40px "Roboto",sans-serif; display:block; padding:0 0 0 25px; color:#000;  text-decoration:none;  transition: all 300ms ease-out 0s; text-transform:capitalize;}
 #LeftPanel ul li:hover a{ background:#231f20; color:#fff;}
 
 #LeftPanel ul li span{
 font:400 15px/40px "Roboto",sans-serif; display:block; padding:0 0 0 25px;  text-decoration:none;   color:#fff; background:#231f20;}
 
-#LeftPanel ul ul{ list-style-type:none !important; padding:0!important; background:#f2efef; padding:0 7px;}
+#LeftPanel ul ul{ list-style-type:none !important; padding:0!important; background:#cdcdcd; padding:0 7px;}
 #LeftPanel ul ul li > a{font:400 13px/38px "Roboto",sans-serif; display:block; padding:0 0 0 34px; background-repeat:no-repeat; color:#000; text-transform:capitalize;  text-decoration:none;}
 #LeftPanel ul ul li:hover > a, #LeftPanel ul ul li > span{font:400 13px/38px "Roboto",sans-serif; display:block; padding:0 0 0 34px;  color:#fff; text-transform:capitalize;  text-decoration:none; background:#231f20;} 
 
@@ -295,7 +288,7 @@ td#CentralArea div.dynpg td.l, td#CentralArea div.dynpg td.m, td#CentralArea div
 #add-section > div:first-child{ margin: 1px 0 10px;}
 #add-section > div { float: none; margin: 15px 0 0; width:100%; text-align:center;}
 #navigation-panel{ padding:0; float:left; width:50px; margin:-55px 0 0 10px; position:relative; z-index:99; background:none;}
-#nav-btn{ display:block; margin:10px 5px 0; background:url(../images/navigation.png) no-repeat 0 50%; font-size:0; height:32px; color:#fff; text-transform:uppercase; cursor:pointer; border-radius:4px;}
+#nav-btn{ display:block; margin:10px 5px 0; background:url(https://cdn.rawgit.com/autobuff/eBay/e1de963f/navigation.png) no-repeat 0 50%; font-size:0; height:32px; color:#fff; text-transform:uppercase; cursor:pointer; border-radius:4px;}
 #navigation-panel ul{ width:290px; display:none; padding:0; background:#666; box-shadow:0 0 4px #323232; position:absolute; left:0; top:100%;}
 #navigation-panel ul li, #navigation-panel ul li:last-child{ float:none; text-align:left;}
 #navigation-panel ul li, #navigation-panel ul li+li{ background:none; border-top:solid 1px #323232; padding:0; border-left:none;}
