@@ -112,13 +112,16 @@
 }
 
 
-
+.csslider1 > #cs_slide1_0:checked ~ .cs_arrowprev > label.num3,
+.csslider1 > #cs_pause1_0:checked ~ .cs_arrowprev > label.num3,
 .csslider1 > #cs_slide1_0:checked ~ .cs_arrowprev > label.num2,
 .csslider1 > #cs_pause1_0:checked ~ .cs_arrowprev > label.num2,
 .csslider1 > #cs_slide1_0:checked ~ .cs_arrownext > label.num1,
 .csslider1 > #cs_pause1_0:checked ~ .cs_arrownext > label.num1, 
 .csslider1 > #cs_slide1_1:checked ~ .cs_arrowprev > label.num0,
 .csslider1 > #cs_pause1_1:checked ~ .cs_arrowprev > label.num0,
+.csslider1 > #cs_slide1_1:checked ~ .cs_arrownext > label.num3,
+.csslider1 > #cs_pause1_1:checked ~ .cs_arrownext > label.num3, 
 .csslider1 > #cs_slide1_1:checked ~ .cs_arrownext > label.num2,
 .csslider1 > #cs_pause1_1:checked ~ .cs_arrownext > label.num2, 
 .csslider1 > #cs_slide1_2:checked ~ .cs_arrowprev > label.num1,
@@ -139,14 +142,15 @@
   33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
 }
 
-
+.csslider1 > #cs_play1:checked ~ .cs_arrowprev > label.num3,
 .csslider1 > #cs_play1:checked ~ .cs_arrowprev > label.num2,
 .csslider1 > #cs_play1:checked ~ .cs_arrownext > label.num1 {
   -webkit-animation: arrow 12300ms infinite -1000ms;
   animation: arrow 12300ms infinite -1000ms;
 }
 .csslider1 > #cs_play1:checked ~ .cs_arrowprev > label.num0,
-.csslider1 > #cs_play1:checked ~ .cs_arrownext > label.num2 {
+.csslider1 > #cs_play1:checked ~ .cs_arrownext > label.num2
+.csslider1 > #cs_play1:checked ~ .cs_arrownext > label.num3 {
   -webkit-animation: arrow 12300ms infinite 3100ms;
   animation: arrow 12300ms infinite 3100ms;
 }
@@ -293,7 +297,9 @@
 .csslider1 > ul > .slide.num2 {
   left: 200%;
 }
- 
+.csslider1 > ul > .slide.num3 {
+  left: 300%;
+}
 
 
 .csslider1 > #cs_slide1_0:checked ~ ul > .slide,
@@ -484,8 +490,8 @@
 .csslider1 > #cs_pause1_1:checked ~ .cs_bullets > label.num1,
 .csslider1 > #cs_slide1_2:checked ~ .cs_bullets > label.num2,
 .csslider1 > #cs_pause1_2:checked ~ .cs_bullets > label.num2,
-.csslider1 > #cs_slide1_2:checked ~ .cs_bullets > label.num3,
-.csslider1 > #cs_pause1_2:checked ~ .cs_bullets > label.num3 {
+.csslider1 > #cs_slide1_3:checked ~ .cs_bullets > label.num3,
+.csslider1 > #cs_pause1_3:checked ~ .cs_bullets > label.num3 {
   background: #fff;
   margin-bottom: -1px;
   padding: 6px;
@@ -600,7 +606,11 @@
 .csslider1 > #cs_slide1_2:checked ~ .cs_description > .num2 > .cs_title,
 .csslider1 > #cs_slide1_2:checked ~ .cs_description > .num2 > .cs_descr,
 .csslider1 > #cs_pause1_2:checked ~ .cs_description > .num2 > .cs_title,
-.csslider1 > #cs_pause1_2:checked ~ .cs_description > .num2 > .cs_descr {
+.csslider1 > #cs_pause1_2:checked ~ .cs_description > .num2 > .cs_descr 
+.csslider1 > #cs_slide1_3:checked ~ .cs_description > .num3 > .cs_title,
+.csslider1 > #cs_slide1_3:checked ~ .cs_description > .num3 > .cs_descr,
+.csslider1 > #cs_pause1_3:checked ~ .cs_description > .num3 > .cs_title,
+.csslider1 > #cs_pause1_3:checked ~ .cs_description > .num3 > .cs_descr {
   opacity: 1;
   visibility: visible;
 }
@@ -648,7 +658,10 @@
   -webkit-animation: cs_title 12300ms infinite 7500ms ease;
   animation: cs_title 12300ms infinite 7500ms ease;
 }
-
+.csslider1 > #cs_play1:checked ~ .cs_description > .num3  > .cs_title {
+  -webkit-animation: cs_title 12300ms infinite 7500ms ease;
+  animation: cs_title 12300ms infinite 7500ms ease;
+}
 
 .csslider1 > #cs_play1:checked ~ .cs_description > .num0  > .cs_descr {
   -webkit-animation: cs_title 12300ms infinite -700ms ease;
@@ -662,7 +675,10 @@
   -webkit-animation: cs_title 12300ms infinite 7500ms ease;
   animation: cs_title 12300ms infinite 7500ms ease;
 }
-
+.csslider1 > #cs_play1:checked ~ .cs_description > .num3  > .cs_descr {
+  -webkit-animation: cs_title 12300ms infinite 7500ms ease;
+  animation: cs_title 12300ms infinite 7500ms ease;
+}
 
 
 .csslider1 > #cs_play1:checked ~ .cs_description > label > .cs_title,
