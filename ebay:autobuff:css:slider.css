@@ -140,12 +140,12 @@
 }
 
 
-.csslider1 > #cs_play1:checked ~ .cs_arrowprev > label.num0,
+.csslider1 > #cs_play1:checked ~ .cs_arrowprev > label.num2,
 .csslider1 > #cs_play1:checked ~ .cs_arrownext > label.num1 {
   -webkit-animation: arrow 12300ms infinite -1000ms;
   animation: arrow 12300ms infinite -1000ms;
 }
-.csslider1 > #cs_play1:checked ~ .cs_arrowprev > label.num3,
+.csslider1 > #cs_play1:checked ~ .cs_arrowprev > label.num0,
 .csslider1 > #cs_play1:checked ~ .cs_arrownext > label.num2 {
   -webkit-animation: arrow 12300ms infinite 3100ms;
   animation: arrow 12300ms infinite 3100ms;
@@ -155,11 +155,7 @@
   -webkit-animation: arrow 12300ms infinite 7200ms;
   animation: arrow 12300ms infinite 7200ms;
 }
-.csslider1 > #cs_play1:checked ~ .cs_arrowprev > label.num3,
-.csslider1 > #cs_play1:checked ~ .cs_arrownext > label.num2 {
-  -webkit-animation: arrow 12300ms infinite 7200ms;
-  animation: arrow 12300ms infinite 7200ms;
-}
+
 
 .csslider1 > .slide:checked ~ .cs_arrowprev > label,
 .csslider1 > .slide:checked ~ .cs_arrownext > label,
