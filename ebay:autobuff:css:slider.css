@@ -675,28 +675,13 @@
 /* ------------- /Template Description ------------- */
 /* hide description & bullets on mobile devices */
 @media
-only screen and (max-width: 480px),
-only screen and (-webkit-max-device-pixel-ratio: 2)      and (max-width: 480px),
-only screen and (   max--moz-device-pixel-ratio: 2)      and (max-width: 480px),
-only screen and (     -o-max-device-pixel-ratio: 2/1)    and (max-width: 480px),
-only screen and (        max-device-pixel-ratio: 2)      and (max-width: 480px),
-only screen and (                max-resolution: 192dpi) and (max-width: 480px),
-only screen and (                max-resolution: 2dppx)  and (max-width: 480px) { 
-  .csslider1 > .cs_description,
-  .csslider1 > .cs_bullets {
-    display: none;
-  }
+
 }
-@media only screen and (max-width: 990px) {
-.csslider1 > .cs_arrowprev, .csslider1 > .cs_arrownext {    height: 30px;    width: 30px;}
+@media only screen and (max-width: 990px)
 .rs-pview {  margin: 0 -3px;}
 }
 .pagecontainer > table > tbody > tr > td > table+table{ max-width:100% !important;}
 .pagecontainer > table > tbody > tr > td > table+table > tbody > tr{ display:none;}
 .pagecontainer > table > tbody > tr > td > table+table > tbody > tr+tr{ display:block;}
 #banner{ display:block !important;}
-/*#navigation-panel ul li:first-child a{  background:#479cc4;}*/
-
-
-td#CentralArea div.dynpg{ margin-left:0 !important; margin-right:0 !important;}
 
