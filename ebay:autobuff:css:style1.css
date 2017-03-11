@@ -186,7 +186,7 @@ div.lcat{ width:100% !important;}
 #LeftPanel{ width:280px;}
 .pagecontainer > table > tbody > tr > td > table+table{    margin: 0 auto;    width:1200px; max-width:100%; margin-bottom:10px;}
 .stBadge{ position:relative; margin:103px 0 0 !important; background:#32435d;}
-.stBadge:before{ position:absolute; left:0; right:0; bottom:100%; content:""; height:103px; background:url(https://cdn.rawgit.com/autobuff/eBay/0224cbe1/footer1.png) no-repeat 50% 50% #32435d;}
+.stBadge:before{ position:absolute; left:0; right:0; bottom:100%; content:""; height:103px; background:url(https://cdn.rawgit.com/autobuff/eBay/7b57c99d/footer1.png) no-repeat 50% 50% #32435d;}
 td#CentralArea div.dynpg{ padding:1px 0 !important; /*background:#eaeaea;*/ color:#333; margin:1px 15px;font:400 15px/27px "Roboto",sans-serif;}
 td#CentralArea div.dynpg td.l{ width:33.3%; display:none;}
 td#CentralArea div.dynpg td.m{ width:33.3%;} 
@@ -232,7 +232,7 @@ div#LeftPanel{ float:left; margin:20px 0 0;}
 .pagecontainer > table > tbody > tr > td > table+table{  width:1000px;}
 /* -------for ebay-------- */
 .pagecontainer > table > tbody > tr > td > table+table{  width: 1000px;}
-.stBadge:before{ background:#32435d url(../images/footer3.jpg) no-repeat 50% 0;}
+.stBadge:before{ background:#32435d url(https://cdn.rawgit.com/autobuff/eBay/7b57c99d/footer2.png) no-repeat 50% 0;}
 td#CentralArea div.dynpg td.l, td#CentralArea div.dynpg td.m, td#CentralArea div.dynpg td.r{ width:auto;}
 /* -------for ebay-------- */
 
@@ -263,7 +263,7 @@ td.gallery{ padding:0;}
 /* -------for ebay-------- */
 #fpcap .countClass, #fpcap .matchClass, #fpcap .keywordClass{ font-size:16px !important;}
 #LeftPanel{ width:230px;}
-.stBadge:before{ background:url(../images/footer4.jpg) no-repeat 50% 0 #32435d;}
+.stBadge:before{ background:url(https://cdn.rawgit.com/autobuff/eBay/7b57c99d/footer3.png) no-repeat 50% 0 #32435d;}
 #fpcap .keywordClass{ display:none !important;}
 
 td.gallery { padding: 10px 3px !important;}
@@ -295,7 +295,7 @@ td#CentralArea div.dynpg td.l, td#CentralArea div.dynpg td.m, td#CentralArea div
 #add-section > div:first-child{ margin: 1px 0 10px;}
 #add-section > div { float: none; margin: 15px 0 0; width:100%; text-align:center;}
 #navigation-panel{ padding:0; float:left; width:50px; margin:-55px 0 0 10px; position:relative; z-index:99; background:none;}
-#nav-btn{ display:block; margin:10px 5px 0; background:url(https://cdn.rawgit.com/autobuff/eBay/c97907b4/navigation.png) no-repeat 0 50%; font-size:0; height:32px; color:#fff; text-transform:uppercase; cursor:pointer; border-radius:4px;}
+#nav-btn{ display:block; margin:10px 5px 0; background:url(https://cdn.rawgit.com/autobuff/eBay/7b57c99d/navigation.png) no-repeat 0 50%; font-size:0; height:32px; color:#fff; text-transform:uppercase; cursor:pointer; border-radius:4px;}
 #navigation-panel ul{ width:290px; display:none; padding:0; background:#666; box-shadow:0 0 4px #323232; position:absolute; left:0; top:100%;}
 #navigation-panel ul li, #navigation-panel ul li:last-child{ float:none; text-align:left;}
 #navigation-panel ul li, #navigation-panel ul li+li{ background:none; border-top:solid 1px #323232; padding:0; border-left:none;}
@@ -346,7 +346,7 @@ tr.ess_holiday+tr > td{ padding:0;}
 #LeftPanel+td+td{ display:block;}
 .pagecontainer > table > tbody > tr > td > table+table{  width:98%;}
 .stBadge{ margin:103px 0 0 !important;}
-.stBadge:before{ background:url(../images/footer5.jpg) no-repeat 50% 0 #32435d; height:103px;}
+.stBadge:before{ background:url(https://cdn.rawgit.com/autobuff/eBay/7b57c99d/footer4.png) no-repeat 50% 0 #32435d; height:103px;}
 .rs-pview{ padding:0 !important; margin:0;}
 .heading-left, .lcat .ttl{ text-align:left; text-indent:15px; position:relative;}
 .heading-left, .lcat .ttl:before{ position:absolute; right:10px; top:4px; display:block; content:"+";font:400 30px/40px "Roboto",sans-serif; color:#fff;}
