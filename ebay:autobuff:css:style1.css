@@ -228,7 +228,7 @@ div#LeftPanel{ float:left; margin:20px 0 0;}
 .pagecontainer > table > tbody > tr > td > table+table{  width:1000px;}
 /* -------for ebay-------- */
 .pagecontainer > table > tbody > tr > td > table+table{  width: 1000px;}
-.stBadge:before{ background:#32435d url(https://cdn.rawgit.com/autobuff/eBay/70a80226/footer2.png) no-repeat 50% 0;}
+.stBadge:before{ background:#000000 url(https://cdn.rawgit.com/autobuff/eBay/70a80226/footer2.png) no-repeat 50% 0;}
 td#CentralArea div.dynpg td.l, td#CentralArea div.dynpg td.m, td#CentralArea div.dynpg td.r{ width:auto;}
 /* -------for ebay-------- */
 
@@ -259,7 +259,7 @@ td.gallery{ padding:0;}
 /* -------for ebay-------- */
 #fpcap .countClass, #fpcap .matchClass, #fpcap .keywordClass{ font-size:16px !important;}
 #LeftPanel{ width:230px;}
-.stBadge:before{ background:url(https://cdn.rawgit.com/autobuff/eBay/70a80226/footer3.png) no-repeat 50% 0 #32435d;}
+.stBadge:before{ background:url(https://cdn.rawgit.com/autobuff/eBay/70a80226/footer3.png) no-repeat 50% 0 #000000;}
 #fpcap .keywordClass{ display:none !important;}
 
 td.gallery { padding: 10px 3px !important;}
