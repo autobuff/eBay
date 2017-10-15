@@ -1,6 +1,6 @@
 /********* BEGIN style footer ***********/
 	.footer-container{ margin-top:90px;position:relative; top:2px;}
-	.footer-bottom{background:#262626;}
+	.footer-bottom{background:#000000;}
 	.box-footer{float:left; width:33.3%;margin:40px 0px;}
 	.box-footer h2{font-family:'Oswald' !important; font-size:25px; color:#f2f2f2; text-transform:uppercase; padding-bottom:15px; line-height:25px; }
 	.box-footer  p{font-family:'PT Sans' ; font-size:15px; color:#bfbfbf; line-height:22px;  }
