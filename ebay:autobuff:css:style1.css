@@ -38,7 +38,7 @@ background: #000000;
 .top_white{ float:right; padding:15px 0 25px;}
 
 #nav-btn{ display:none;}
-#navigation-panel{clear:both; position:relative; background: #262626; }
+#navigation-panel{clear:both; position:relative; background: #000000; }
 #navigation-panel ul{ margin-bottom:0;}
 #navigation-panel ul li{ float:left; position:relative;}
 #navigation-panel ul li a{ display:block; color:#b9b9b9;font:400 13px/45px 'Arial'; text-transform:uppercase; padding:0 62px;}
