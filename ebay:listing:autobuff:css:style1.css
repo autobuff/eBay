@@ -140,7 +140,7 @@ span.pll, a.pll {    font-family: Verdana,Arial;    font-size: x-small;    paddi
 .gallery{ text-align:center;}
 td.details a{ color:#333;}
 .gallery .details a{    color: #242424;    font:400 16px/18px "Roboto",sans-serif; padding:10px 0;  display:block;}
-.gallery .details a:hover{ text-decoration:none !important;}
+.gallery .deails a:hover{ text-decoration:none !important;}
 table.gallery .subtitle{ display:none;}
 table.gallery div.ttl{ margin:0;}
 #footer-section+img{ display:none;}
@@ -220,103 +220,4 @@ font:400 15px/40px "Roboto",sans-serif; display:block; padding:0 0 0 25px;  text
 .toplne{ display:none;}
 div#LeftPanel{ float:left; margin:20px 0 0;}
 .section-holder{ padding:15px 0 0;}
-@media only screen and (max-width: 1198px) {
-.container { width:1000px;}
 
-
-
-.pagecontainer > table > tbody > tr > td > table+table{  width:1000px;}
-/* -------for ebay-------- */
-.pagecontainer > table > tbody > tr > td > table+table{  width: 1000px;}
-.stBadge:before{ background:#000000 url(https://cdn.rawgit.com/autobuff/eBay/70a80226/footer2.png) no-repeat 50% 0;}
-td#CentralArea div.dynpg td.l, td#CentralArea div.dynpg td.m, td#CentralArea div.dynpg td.r{ width:auto;}
-/* -------for ebay-------- */
-
-#navigation-panel ul li a {    padding: 0 42px;}
-#right-section {    width:653px;}
-td.gallery{ padding:0;}
-
-.gift1 > div{ font-size:14px;}
-.gift1{ width:24.5%;}
-.rs-pview{ margin:0 !important;}
-
-#newsletter {   left: 362px;}
-
-}
-@media only screen and (max-width: 990px) {
-.container { width:750px;}
-.pagecontainer > table > tbody > tr > td > table+table{  width:750px;}
-#navigation-panel ul li a {    padding: 0 18px;}
-#right-section {    width:496px;}
-#LeftPanel ul li a{ padding:0 0 0 13px;}
-#search{ width:260px;}
-#fpcap{ margin:0;}
-.gift1{ width:24.8%;}
-.gift1 > div strong{ font-size:14px;}
-.gift1 > div{ padding:0 0 0 58px; font-size:12px;}
-.brandsec ul li{ margin:0 0 0 8px;}
-
-/* -------for ebay-------- */
-#fpcap .countClass, #fpcap .matchClass, #fpcap .keywordClass{ font-size:16px !important;}
-#LeftPanel{ width:230px;}
-.stBadge:before{ background:url(https://cdn.rawgit.com/autobuff/eBay/70a80226/footer3.png) no-repeat 50% 0 #000000;}
-#fpcap .keywordClass{ display:none !important;}
-
-td.gallery { padding: 10px 3px !important;}
-table.gallery .details {    padding: 0 5px 5px;}
-.fixed span.bin {  font: 700 16px/20px "Roboto",sans-serif; letter-spacing:0;}
-.gallery .details a {  font:400 16px/20px "Roboto",sans-serif;}
-td#CentralArea div.dynpg{ margin:10px 0;}
-td#CentralArea div.dynpg {  font:300 8px/10px "Roboto",sans-serif;}
-.pgbc input[type="text"]{ width:68px !important;}
-td#CentralArea div.dynpg td.l, td#CentralArea div.dynpg td.m, td#CentralArea div.dynpg td.r { width:auto;}
-.s_recat{ width:230px;}
-.ctrlbr{  margin: -42px 6px 0 0;}
-/* -------for ebay-------- */
-#newsletter {   left: 260px;}
-}
-@media screen and (max-width: 767px) {
-.container { width:auto; width:98%;}
-.pagecontainer table tbody tr td table, .pagecontainer > table > tbody > tr > td > table+table{  width:100%;}
-#header{ padding: 0 0 10px;}
-
-#logo{ float:none; width:100%; text-align:center; left:0;}
-
-#search{ float:right; margin:20px 0 0; width:240px;}
-
-.heading{ border:none; font-size:20px; line-height:22px; padding:0 0 40px; text-align:center;}
-.heading-right{ float:none;}
-.product_sec{ padding:14px;}
-
-#add-section > div:first-child{ margin: 1px 0 10px;}
-#add-section > div { float: none; margin: 15px 0 0; width:100%; text-align:center;}
-#navigation-panel{ padding:0; float:left; width:50px; margin:-55px 0 0 10px; position:relative; z-index:99; background:none;}
-#nav-btn{ display:block; margin:10px 5px 0; background:url(https://cdn.rawgit.com/autobuff/eBay/7b57c99d/navigation.png) no-repeat 0 50%; font-size:0; height:32px; color:#fff; text-transform:uppercase; cursor:pointer; border-radius:4px;}
-#navigation-panel ul{ width:290px; display:none; padding:0; background:#666; box-shadow:0 0 4px #323232; position:absolute; left:0; top:100%;}
-#navigation-panel ul li, #navigation-panel ul li:last-child{ float:none; text-align:left;}
-#navigation-panel ul li, #navigation-panel ul li+li{ background:none; border-top:solid 1px #323232; padding:0; border-left:none;}
-#navigation-panel ul li a{ line-height:40px;}
-#navigation-panel ul li.hasmenu > a{ display:block;}
-#navigation-panel ul li.hasmenu .submenu{ background:url(../images/submenu.png) no-repeat 50% 50%; width:14px; height:14px; display:block; position:absolute; top:10px; right:5px; display:block;}
-#navigation-panel ul li.hasmenu > a{ background-image:none;}
-#navigation-panel ul ul{ position:relative; width:auto; min-width:inherit; top:auto; left:auto; background:#57250e; margin:0 4px; border-radius:4px;}
-#navigation-panel ul ul ul{ position:relative; left:auto; top:auto;}
-
-.gift1{ width:100%; float:none; box-sizing:border-box; padding-left:2%;}
-.gift1 > div{ font-size:16px; width:271px;}
-.gift1 > div strong{ font-size:17px;}
-.gift1:nth-child(4n+2){ border:none; transform:none;}
-.gift1:nth-child(4n+2) > div{ transform:none;}
-.gift1:nth-child(4n+4){ border:none; transform:none;}
-.gift1:nth-child(4n+4) > div{ transform:none;}
-
-.seventy{ width:100%; float:none;}
-.thirty{width:100%; float:none;}
-.brandsec ul li{ float:none; margin:4px 0 0 0; text-align:center;}
-
-
-#footer-top > div{ width:100%; float:none;  text-align:center;}
-#footer-top > div ul{ display:table; margin:0 auto;}
-#left-section{ display:none;}
-#right-section{ float:none; width:auto; margin:0;}
-.s_recat{ width:auto;}
