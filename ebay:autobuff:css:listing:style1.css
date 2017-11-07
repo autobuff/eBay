@@ -25,7 +25,7 @@ ul, ol{ list-style-type:none; padding:0; margin:0;}
 #header-top{ background:#1f1a17; padding:15px;}
 #logo{ float:left;}
 #search {float:right;overflow: hidden;position: relative;width:300px; height:40px;}
-#search input[type="text"] {background: #fff;border: 0 none;font:400 14px/40px "Roboto",sans-serif;height:40px;text-indent: 10px;width:calc(100%); color:#9b9b9b; }
+#search input[type="text"] {background: #fff;border: 0 none;font:400 14px/40px "Roboto",sans-serif;height:40px;text-indent: 10px;width:calc(100% - 40px); color:#9b9b9b; }
 #search input[type="submit"], #search input[type="button"] {background:#c2c2c2 url(https://cdn.rawgit.com/autobuff/eBay/1db2c03e/magnify.png) no-repeat scroll 50% 50%;border: 0 none;height:40px;position: absolute;right: 0;top: 0;width: 40px; cursor:pointer; font-size:0;}
 .top_white{ float:right; padding:15px 0 25px;}
 
@@ -46,7 +46,7 @@ ul, ol{ list-style-type:none; padding:0; margin:0;}
 #navigation-panel input[type="checkbox"]{ display:none;}
 #navigation-panel input[type="checkbox"]:checked+ul{ display:block;}
 
-#shipping-section{ margin:10px 0 0; text-align:center; overflow:hidden; background:url() repeat-y 50% 0 #fff;}
+#shipping-section{ margin:10px 0 0; text-align:center; overflow:hidden; background:url("") repeat-y 50% 0 #fff;}
 #shipping-section img{ float:left;}
 #shipping-section p{ font:normal 16px/20px 'MyriadPro-Regular'; float:left; text-align:left; text-transform:uppercase; padding:6px 0 0 15px;}
 #shipping-section p span{ font:bold 18px/20px 'MyriadPro-Regular'; display:block;}
@@ -95,7 +95,7 @@ ul, ol{ list-style-type:none; padding:0; margin:0;}
 #footer .container{ background:#7dc7ea; padding:24px;}
 .copyright{ font:400 14px/16px  "Roboto",sans-serif; color:#fff; float:left; padding:20px 0 0;}
 .right-footer {
-    background: rgba(0, 0, 0, 0) url(") no-repeat scroll 100% 50%;
+    background: rgba(0, 0, 0, 0) url("") no-repeat scroll 100% 50%;
     color: #fff;
     float: right;
     font: 400 16px/28px "Raleway",sans-serif;
@@ -139,14 +139,14 @@ ul, ol{ list-style-type:none; padding:0; margin:0;}
 #shipping-section > div{ -ms-transform: skewX(0deg); -webkit-transform: skewX(0deg);   transform: skewX(0deg);}
 #shipping-section > div > div{-ms-transform: skewX(0deg); -webkit-transform: skewX(0deg);   transform: skewX(0deg);}
 #shipping-section > div+div{  border-left:0; border-top:2px solid #3c3c3c;}
-#navigation-panel{ padding:0; float:left; width:50px; margin:- 0 10px; position:relative; z-index:99; background:none;}
+#navigation-panel{ padding:0; float:left; width:50px; margin:-75px 0 0 10px; position:relative; z-index:99; background:none;}
 #nav-btn{ display:block; margin:10px 5px 0; background:url(https://cdn.rawgit.com/autobuff/eBay/7b57c99d/navigation.png) no-repeat 0 50%; font-size:0; height:32px; color:#fff; text-transform:uppercase; cursor:pointer; border-radius:4px;}
 #navigation-panel ul{ width:290px; display:none; padding:0; background:#666; box-shadow:0 0 4px #323232; position:absolute; left:0; top:100%;}
 #navigation-panel ul li, #navigation-panel ul li:last-child{ float:none; text-align:left;}
 #navigation-panel ul li, #navigation-panel ul li+li{ background:none; border-top:solid 1px #323232; padding:0; border-left:none;}
 #navigation-panel ul li a{ line-height:40px;}
 #navigation-panel ul li.hasmenu > a{ display:block;}
-#navigation-panel ul li.hasmenu .submenu{ background:url() no-repeat 50% 50%; width:14px; height:14px; display:block; position:absolute; top:10px; right:5px; display:block;}
+#navigation-panel ul li.hasmenu .submenu{ background:url("") no-repeat 50% 50%; width:14px; height:14px; display:block; position:absolute; top:10px; right:5px; display:block;}
 #navigation-panel ul li.hasmenu > a{ background-image:none;}
 #navigation-panel ul ul{ position:relative; width:auto; min-width:inherit; top:auto; left:auto; background:#57250e; margin:0 4px; border-radius:4px;}
 #navigation-panel ul ul ul{ position:relative; left:auto; top:auto;}
