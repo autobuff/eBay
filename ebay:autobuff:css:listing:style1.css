@@ -140,7 +140,7 @@ ul, ol{ list-style-type:none; padding:0; margin:0;}
 #shipping-section > div > div{-ms-transform: skewX(0deg); -webkit-transform: skewX(0deg);   transform: skewX(0deg);}
 #shipping-section > div+div{  border-left:0; border-top:2px solid #3c3c3c;}
 #navigation-panel{ padding:0; float:left; width:50px; margin:-55px 0 0 10px; position:relative; z-index:99; background:none;}
-#nav-btn{ display:block; margin:10px 5px 0; background:url(https://cdn.rawgit.com/autobuff/eBay/7b57c99d/navigation.png) no-repeat 0 50%; font-size:0; height:32px; color:#fff; text-transform:uppercase; cursor:pointer; border-radius:4px;}
+#nav-btn{ display:block; margin:10px 5px 0; background:url(https://cdn.rawgit.com/autobuff/eBay/639c0240/navigation.png) no-repeat 0 50%; font-size:0; height:32px; color:#fff; text-transform:uppercase; cursor:pointer; border-radius:4px;}
 #navigation-panel ul{ width:290px; display:none; padding:0; background:#666; box-shadow:0 0 4px #323232; position:absolute; left:0; top:100%;}
 #navigation-panel ul li, #navigation-panel ul li:last-child{ float:none; text-align:left;}
 #navigation-panel ul li, #navigation-panel ul li+li{ background:none; border-top:solid 1px #323232; padding:0; border-left:none;}
