@@ -243,125 +243,60 @@ td.gallery{ padding:0;}
 #newsletter {   left: 362px;}
 
 }
+
+
+@media only screen and (max-width: 1198px) {
+.container { width:1000px;}
+#navigation-panel ul li a{ padding:0 30px;}
+}
 @media only screen and (max-width: 990px) {
 .container { width:750px;}
-.pagecontainer > table > tbody > tr > td > table+table{  width:750px;}
-#navigation-panel ul li a {    padding: 0 18px;}
-#right-section {    width:496px;}
-#LeftPanel ul li a{ padding:0 0 0 13px;}
+#details-left{ width:100%; float:none;}
+#details-right{ width:100%; float:none; padding:15px 0 0;}
+
+#navigation-panel ul li a {    padding: 0 10px;}
 #search{ width:260px;}
-#fpcap{ margin:0;}
-.gift1{ width:24.8%;}
-.gift1 > div strong{ font-size:14px;}
-.gift1 > div{ padding:0 0 0 58px; font-size:12px;}
-.brandsec ul li{ margin:0 0 0 8px;}
-
-/* -------for ebay-------- */
-#fpcap .countClass, #fpcap .matchClass, #fpcap .keywordClass{ font-size:16px !important;}
-#LeftPanel{ width:230px;}
-.stBadge:before{ background:url(https://cdn.rawgit.com/autobuff/eBay/70a80226/footer3.png) no-repeat 50% 0 #000000;}
-#fpcap .keywordClass{ display:none !important;}
-
-td.gallery { padding: 10px 3px !important;}
-table.gallery .details {    padding: 0 5px 5px;}
-.fixed span.bin {  font: 700 16px/20px "Roboto",sans-serif; letter-spacing:0;}
-.gallery .details a {  font:400 16px/20px "Roboto",sans-serif;}
-td#CentralArea div.dynpg{ margin:10px 0;}
-td#CentralArea div.dynpg {  font:300 8px/10px "Roboto",sans-serif;}
-.pgbc input[type="text"]{ width:68px !important;}
-td#CentralArea div.dynpg td.l, td#CentralArea div.dynpg td.m, td#CentralArea div.dynpg td.r { width:auto;}
-.s_recat{ width:230px;}
-.ctrlbr{  margin: -42px 6px 0 0;}
-/* -------for ebay-------- */
-#newsletter {   left: 260px;}
+#shipping-section p{ font:normal 14px/20px "MyriadPro-Regular";  padding: 0 0 0 5px;}
+#shipping-section p span{ font: bold 15px/20px "MyriadPro-Regular";}
+#shipping-section img{width:40px;}
 }
 @media screen and (max-width: 767px) {
 .container { width:auto; width:98%;}
-.pagecontainer table tbody tr td table, .pagecontainer > table > tbody > tr > td > table+table{  width:100%;}
-#header{ padding: 0 0 10px;}
+#details-right h1{ font-size:24px; line-height:26px;}
+.tab-content > label, .tab-content > a{ width:100%; padding:0; margin:5px 0 0;}
+.copyright{ float:none; text-align:center;}
+.right-footer{ float:none; text-align:center; margin:0 auto; display:table;}
 
+
+#header-top{ padding:10px;}
 #logo{ float:none; width:100%; text-align:center; left:0;}
-
+#logo img{ max-width:310px;}
 #search{ float:right; margin:20px 0 0; width:240px;}
-
-.heading{ border:none; font-size:20px; line-height:22px; padding:0 0 40px; text-align:center;}
-.heading-right{ float:none;}
-.product_sec{ padding:14px;}
-
-#add-section > div:first-child{ margin: 1px 0 10px;}
-#add-section > div { float: none; margin: 15px 0 0; width:100%; text-align:center;}
+#shipping-section{ background:#fff;}
+#shipping-section > div{    float:none;    width:100%;}
+#shipping-section .shipping-section{ padding:10px 0 10px 70px; width:300px; box-sizing:border-box;}
+#shipping-section .shipping-section img{ top:10px;}
+#shipping-section > div{ padding:10px 0;}
+#shipping-section .shipping-section{ width:180px; padding:0;}
+#shipping-section > div{ -ms-transform: skewX(0deg); -webkit-transform: skewX(0deg);   transform: skewX(0deg);}
+#shipping-section > div > div{-ms-transform: skewX(0deg); -webkit-transform: skewX(0deg);   transform: skewX(0deg);}
+#shipping-section > div+div{  border-left:0; border-top:2px solid #3c3c3c;}
 #navigation-panel{ padding:0; float:left; width:50px; margin:-55px 0 0 10px; position:relative; z-index:99; background:none;}
-#nav-btn{ display:block; margin:10px 5px 0; background:url(https://cdn.rawgit.com/autobuff/eBay/7b57c99d/navigation.png) no-repeat 0 50%; font-size:0; height:32px; color:#fff; text-transform:uppercase; cursor:pointer; border-radius:4px;}
+#nav-btn{ display:block; margin:10px 5px 0; background:url(https://cdn.rawgit.com/autobuff/eBay/639c0240/navigation.png) no-repeat 0 50%; font-size:0; height:32px; color:#fff; text-transform:uppercase; cursor:pointer; border-radius:4px;}
 #navigation-panel ul{ width:290px; display:none; padding:0; background:#666; box-shadow:0 0 4px #323232; position:absolute; left:0; top:100%;}
 #navigation-panel ul li, #navigation-panel ul li:last-child{ float:none; text-align:left;}
 #navigation-panel ul li, #navigation-panel ul li+li{ background:none; border-top:solid 1px #323232; padding:0; border-left:none;}
 #navigation-panel ul li a{ line-height:40px;}
 #navigation-panel ul li.hasmenu > a{ display:block;}
-#navigation-panel ul li.hasmenu .submenu{ background:url(../images/submenu.png) no-repeat 50% 50%; width:14px; height:14px; display:block; position:absolute; top:10px; right:5px; display:block;}
+#navigation-panel ul li.hasmenu .submenu{ background:url("") no-repeat 50% 50%; width:14px; height:14px; display:block; position:absolute; top:10px; right:5px; display:block;}
 #navigation-panel ul li.hasmenu > a{ background-image:none;}
 #navigation-panel ul ul{ position:relative; width:auto; min-width:inherit; top:auto; left:auto; background:#57250e; margin:0 4px; border-radius:4px;}
 #navigation-panel ul ul ul{ position:relative; left:auto; top:auto;}
-
-.gift1{ width:100%; float:none; box-sizing:border-box; padding-left:2%;}
-.gift1 > div{ font-size:16px; width:271px;}
-.gift1 > div strong{ font-size:17px;}
-.gift1:nth-child(4n+2){ border:none; transform:none;}
-.gift1:nth-child(4n+2) > div{ transform:none;}
-.gift1:nth-child(4n+4){ border:none; transform:none;}
-.gift1:nth-child(4n+4) > div{ transform:none;}
-
-.seventy{ width:100%; float:none;}
-.thirty{width:100%; float:none;}
-.brandsec ul li{ float:none; margin:4px 0 0 0; text-align:center;}
-
-
-#footer-top > div{ width:100%; float:none;  text-align:center;}
-#footer-top > div ul{ display:table; margin:0 auto;}
-#left-section{ display:none;}
-#right-section{ float:none; width:auto; margin:0;}
-.s_recat{ width:auto;}
-/* -------for ebay-------- */
-#LeftPanel h2:before{ position:absolute; right:10px; top:4px; display:block; content:"+";font:400 30px/40px "Roboto",sans-serif; color:#fff;}
-#LeftPanel:hover h2:before{ content:"_"; font-weight:700; top:-10px; right:13px;}
-.ess_content_area > tbody > tr > td { display:block; float:none; width:100%;}
-.stBadge{ min-width:inherit;}
-.dynpg{ text-align:center;}
-td.gallery{display: block;    float: none;    width: auto; padding:7px !important;}
-.r3_cm{ padding:0 !important;}
-.gallery tr, .gallery tbody{ display:block;}
-.gallery > tbody{ display:block;}
-table.gallery td.picture{  display:block; text-align:center; height:auto;}
-table.gallery td.picture div{ min-height:inherit;}
-.grid td.left{ border-left:0 !important;}
-td.details{ display:block;}
-td#CentralArea span.pdmt{ display:inline-block; padding:0 !important; float:none; margin:0;}
-td#CentralArea {    display: block;    text-align: center;}
-tr.ess_holiday+tr > td{ padding:0;}
-#LeftPanel{ display:block; width:100%;}
-#LeftPanel+td{ display:none;}
-#LeftPanel+td+td{ display:block;}
-.pagecontainer > table > tbody > tr > td > table+table{  width:98%;}
-.stBadge{ margin:103px 0 0 !important;}
-.stBadge:before{ background:url(https://cdn.rawgit.com/autobuff/eBay/70a80226/footer4.png) no-repeat 50% 0 #000000; height:103px;}
-.rs-pview{ padding:0 !important; margin:0;}
-.heading-left, .lcat .ttl{ text-align:left; text-indent:15px; position:relative;}
-.heading-left, .lcat .ttl:before{ position:absolute; right:10px; top:4px; display:block; content:"+";font:400 30px/40px "Roboto",sans-serif; color:#fff;}
-.heading-left, .lcat:hover .ttl:before{ content:"_"; font-weight:700; top:-10px; right:13px;}
-#LeftPanel .lcat > ul{ height:0px; opacity:0; overflow:hidden; transition: all 300ms ease-out 0s;}
-#LeftPanel:hover .lcat > ul{ height:auto;  opacity:1;}
-#LeftPanel .lcat > ul li:last-child{ border-bottom:1px solid #efe9e9;}
-/* -------for ebay-------- */
-#newsletter{ display:none;}
 }
 @media only screen and (max-width: 550px) {
-/* -------for ebay-------- */
-td#CentralArea div.dynpg td.l, td#CentralArea div.dynpg td.m, td#CentralArea div.dynpg td.r{ display:block;width:100%;text-align:center; padding:5px;}
-.pgbc input[type="text"]{ box-shadow:0 0 1px #333;}
-/* -------for ebay-------- */
+#category-options > div {  padding: 15px 8px 0; width:100%; float:none;}
+
 }
 @media only screen and (max-width: 490px) {
-#fpcap {  margin: 0 0 8px;   padding: 6px 5px 50px;  text-align: center;}
-.rs_box{ text-align:center;}
-.ctrlbr {    margin: -50px auto 20px; float:none; padding:0 !important;}
-td#CentralArea div.dynpg{ padding:10px !important;}
+
 }
