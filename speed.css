@@ -184,7 +184,7 @@ ul, ol{ list-style-type:none; padding:0; margin:0;}
 .slider input[name='slide_switch']:checked + label + .img-details { opacity: 1; display:inline-block; z-index:1;}
 .slider label + .img-details { opacity: 1; display:block; z-index:1;}
 .img-details {  transition: all 300ms ease-out 0s;}
-.slider .grid-item:nth-child(5n-1){ clear:left;}
+.slider .grid-item:nth-child(1n+6){ clear:left;}
 
 @media only screen and (max-width: 1198px) {
 .container { width:1000px;}
