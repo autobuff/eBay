@@ -13,7 +13,7 @@
          url('../fonts/WalkwayBlack.svg#WalkwayBlack') format('svg');
 }
 
-body{ padding:0; margin:0; font:400 12px/14px "Roboto",sans-serif; }
+body{ padding:0; margin:0; font:400 14px/20px "Roboto",sans-serif; }
 *{ box-sizing:border-box; padding:0; margin:0;}
 div:after, ul:after, ol:after{ clear:both; content:""; display:table;}
 img{ max-width:100%; vertical-align:middle;}
@@ -56,7 +56,7 @@ ul, ol{ list-style-type:none; padding:0; margin:0;}
 #navigation-panel{clear:both; position:relative; background:#262626;}
 #navigation-panel ul{ margin-bottom:0;}
 #navigation-panel ul li{ float:left; position:relative;}
-#navigation-panel ul li a{ display:block; color:#b9b9b9;font:400 15px/47px 'Arial'; text-transform:uppercase; padding:0 62px;}
+#navigation-panel ul li a{ display:block; color:#b9b9b9;font:400 14px/47px 'Arial'; text-transform:uppercase; padding:0 62px;}
 #navigation-panel ul li ul li a{ padding:0 15px;}
 #navigation-panel ul li a:hover, #navigation-panel ul li a:focus{ color:#32435d;}
 #navigation-panel ul li:first-child a{}
@@ -128,7 +128,7 @@ ul, ol{ list-style-type:none; padding:0; margin:0;}
 .ft2{ width:50%; float:left; text-align:center;}
 .ft3{ width:20%; float:right;}
 .ft3 img{ float:right;}
-#footer h3{ font:400 18px/29px "Roboto",sans-serif; color:#fff; background:url(https://cdn.rawgit.com/autobuff/eBay/70a80226/footer1.png) no-repeat 0 0; padding:0 0 0 53px; display:inline-block; text-transform:uppercase;}
+#footer h3{ font:400 18px/29px "Roboto",sans-serif; color:#fff; background:url(HTTPS://cdn.rawgit.com/autobuff/eBay/5f15193e/ABCC-eBay.png) no-repeat 0 0; padding:0 0 0 53px; display:inline-block; text-transform:uppercase;}
 
 
 
