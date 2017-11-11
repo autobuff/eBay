@@ -56,7 +56,7 @@ ul, ol{ list-style-type:none; padding:0; margin:0;}
 #navigation-panel{clear:both; position:relative; background:#262626;}
 #navigation-panel ul{ margin-bottom:0;}
 #navigation-panel ul li{ float:left; position:relative;}
-#navigation-panel ul li a{ display:block; color:#32435d;font:400 15px/47px 'WalkwayBlack'; text-transform:uppercase; padding:0 62px;}
+#navigation-panel ul li a{ display:block; color:#b9b9b9;font:400 15px/47px 'Arial'; text-transform:uppercase; padding:0 62px;}
 #navigation-panel ul li ul li a{ padding:0 15px;}
 #navigation-panel ul li a:hover, #navigation-panel ul li a:focus{ color:#32435d;}
 #navigation-panel ul li:first-child a{}
@@ -122,7 +122,7 @@ ul, ol{ list-style-type:none; padding:0; margin:0;}
 
 .mainhold{ background:#fff; margin:35px 0 0;}
 
-#footer{ background:#77c8b5; padding:10px 0; margin:20px 0 0;}
+#footer{ background:#000000; padding:10px 0; margin:20px 0 0;}
 #footer p{ font:400 15px/17px "Roboto",sans-serif; color:#fff;}
 .ft1{ width:30%; float:left; padding:7px 0 0;}
 .ft2{ width:50%; float:left; text-align:center;}
