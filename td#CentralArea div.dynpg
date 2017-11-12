@@ -122,13 +122,9 @@ ul, ol{ list-style-type:none; padding:0; margin:0;}
 
 .mainhold{ background:#fff; margin:35px 0 0;}
 
-#footer{ background:#000000; padding:10px 0; margin:20px 0 0;}
+#footer{ background:#000000; padding:40px 0; margin:20px 0 0;}
 #footer p{ font:400 15px/17px "Roboto",sans-serif; color:#fff;}
-.ft1{ width:30%; float:left; padding:7px 0 0;}
-.ft2{ width:50%; float:left; text-align:center;}
-.ft3{ width:20%; float:right;}
-.ft3 img{ float:right;}
-#footer h3{ font:400 18px/29px "Roboto",sans-serif; color:#fff; background:url(HTTPS://cdn.rawgit.com/autobuff/eBay/5f15193e/ABCC-eBay.png) no-repeat 0 0; padding:0 0 0 53px; display:inline-block; text-transform:uppercase;}
+#footer h3{ position:absolute; left:0; right:0; bottom:100%; content:""; height:103px; background:url(https://cdn.rawgit.com/autobuff/eBay/70a80226/footer1.png) no-repeat 50% 50% #000000;}
 
 
 
