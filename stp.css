@@ -144,8 +144,8 @@ span.pdmt .label {    float: left;    padding:3px; color:#000; display:none;}
 td#CentralArea span.pdmt{ display:inline-block; padding:0 !important; float:right;}
 span.pdmt .cur{ color:#666 !important;}
 
-.fixed tr td{ display:none;}
-.fixed tr td+td{ width:100%; display:none;}
+.fixed tr td{ display:block;}
+.fixed tr td+td{ width:100%; display:block;}
 .fixed tr+tr{ display:none;}
 .mi{ display:none;}
 .link{ display:none;}
