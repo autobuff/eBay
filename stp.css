@@ -1,3 +1,21 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @autobuff
+ Sign out
+ Watch 0
+  Star 0  Fork 0 autobuff/eBay
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+Branch: master Find file Copy patheBay/ABCC.Style.css
+93442cc  on 18 Nov 2017
+@autobuff autobuff Create ABCC.Style.css
+1 contributor
+RawBlameHistory     
+368 lines (326 sloc)  21.3 KB
 @charset "utf-8";
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
@@ -38,7 +56,7 @@ background: #000000;
 .top_white{ float:right; padding:15px 0 25px;}
 
 #nav-btn{ display:none;}
-#navigation-panel{clear:both; position:relative; background: #000000; }
+#navigation-panel{clear:both; position:relative; background: #262626; }
 #navigation-panel ul{ margin-bottom:0;}
 #navigation-panel ul li{ float:left; position:relative;}
 #navigation-panel ul li a{ display:block; color:#b9b9b9;font:400 13px/45px 'Arial'; text-transform:uppercase; padding:0 62px;}
@@ -120,24 +138,20 @@ table{ width:100%; max-width:100%; border-collapse: collapse;  border-spacing: 0
 #fpcap .matchClass{ font-weight:400!important;}
 .ctrlbr {    border-bottom: 0 none !important;    float: right;    margin: -48px 6px 0 0;    padding: 0 4px 0 0 !important;} 
 .r3_cm{ padding:0 !important; border:0 !important;}
-
-
-
-
-
+.v4stabl, .cmpBr, .ctrlbr .cur img, table.gallery table.fixed div.time2, .iippl{  display: none;}
 span.pdmt .label {    float: left;    padding:3px; color:#000; display:none;}
 .ctrlbr .cur {    background:url(../images/select.png) no-repeat 100% 50% #fff; border: 1px solid #888888;    color: #000;    float: right;    padding:5px 24px 5px 3px;}
 td#CentralArea span.pdmt{ display:inline-block; padding:0 !important; float:right;}
 span.pdmt .cur{ color:#666 !important;}
 
 .fixed tr td{ display:none;}
-.fixed tr td+td{ width:100%; display:block;}
+.fixed tr td+td{ width:100%; display:none;}
 .fixed tr+tr{ display:none;}
 .mi{ display:none;}
 .link{ display:none;}
 .mi{ text-align:left; padding:0 15px;}
-td.stp.price{ text-align:right;}
 td.price{ text-align:center;}
+
 span.ppr, a.ppr {    background-image: url("http://q.ebaystatic.com/aw/pics/search/sprMega2.png");  background-position: -144px -64px;    background-repeat: no-repeat;}
 span.pll, a.pll {    font-family: Verdana,Arial;    font-size: x-small;    padding: 1px 0 2px 21px; color:#696969;}
 .fixed span.bin{    color: #32435d;    font:400 16px/20px "Roboto",sans-serif; float:none; letter-spacing:1px; text-align:center;}
@@ -327,7 +341,7 @@ td#CentralArea div.dynpg td.l, td#CentralArea div.dynpg td.m, td#CentralArea div
 .s_recat{ width:auto;}
 /* -------for ebay-------- */
 #LeftPanel h2:before{ position:absolute; right:10px; top:4px; display:block; content:"+";font:400 30px/40px "Roboto",sans-serif; color:#fff;}
-#LeftPanel:hover h2:before{ content:"_"; font-weight:700; top:-10px; right:13px;}
+#LeftPanel:hover h2:before{ content:"Categories"; font-weight:700; top:-10px; right:13px;}
 .ess_content_area > tbody > tr > td { display:block; float:none; width:100%;}
 .stBadge{ min-width:inherit;}
 .dynpg{ text-align:center;}
@@ -370,3 +384,15 @@ td#CentralArea div.dynpg td.l, td#CentralArea div.dynpg td.m, td#CentralArea div
 .ctrlbr {    margin: -50px auto 20px; float:none; padding:0 !important;}
 td#CentralArea div.dynpg{ padding:10px !important;}
 }
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
