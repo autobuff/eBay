@@ -123,8 +123,7 @@ table{ width:100%; max-width:100%; border-collapse: collapse;  border-spacing: 0
 
 
 
-.v4stabl, .cmpBr, .ctrlbr .cur img, table.gallery table.fixed div.time2, .iippl{  display: none;}
-.v4stabl, .cmpBr, .ctrlbr .cur img, table.gallery table.fixed span.stp div.time2, .iippl{  display: none;}
+
 
 span.pdmt .label {    float: left;    padding:3px; color:#000; display:none;}
 .ctrlbr .cur {    background:url(../images/select.png) no-repeat 100% 50% #fff; border: 1px solid #888888;    color: #000;    float: right;    padding:5px 24px 5px 3px;}
