@@ -156,6 +156,7 @@ tr.price{ text-align:center;}
 span.ppr, a.ppr {    background-image: url("http://q.ebaystatic.com/aw/pics/search/sprMega2.png");  background-position: -144px -64px;    background-repeat: no-repeat;}
 span.pll, a.pll {    font-family: Verdana,Arial;    font-size: x-small;    padding: 1px 0 2px 21px; color:#696969;}
 .fixed span.bin{    color: #32435d;    font:400 16px/20px "Roboto",sans-serif; float:none; letter-spacing:1px; text-align:center;}
+.fixed span.stp{    color: #32435d;    font:400 16px/20px "Roboto",sans-serif; float:none; letter-spacing:1px; text-align:center;}
 .basics{ font:400 14px/16px "Roboto",sans-serif; color:#696969; padding:10px 0 0;}
 .gallery{ text-align:center;}
 td.details a{ color:#333;}
@@ -386,15 +387,3 @@ td#CentralArea div.dynpg td.l, td#CentralArea div.dynpg td.m, td#CentralArea div
 .ctrlbr {    margin: -50px auto 20px; float:none; padding:0 !important;}
 td#CentralArea div.dynpg{ padding:10px !important;}
 }
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
-About
