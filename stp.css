@@ -152,6 +152,7 @@ span.pdmt .cur{ color:#666 !important;}
 .mi{ text-align:left; padding:0 15px;}
 td.price{ text-align:center;}
 tr.price{ text-align:center;}
+
 span.ppr, a.ppr {    background-image: url("http://q.ebaystatic.com/aw/pics/search/sprMega2.png");  background-position: -144px -64px;    background-repeat: no-repeat;}
 span.pll, a.pll {    font-family: Verdana,Arial;    font-size: x-small;    padding: 1px 0 2px 21px; color:#696969;}
 .fixed span.bin{    color: #32435d;    font:400 16px/20px "Roboto",sans-serif; float:none; letter-spacing:1px; text-align:center;}
@@ -182,6 +183,7 @@ table.gallery .details {   padding:0 15px 15px;}
 .prouct-listing .thumbnail img{ border:solid 1px #ccc;}
 .product-names {color: #242424;font: 400 18px/20px "Roboto",sans-serif;padding: 5px 0; text-transform:uppercase;}
 .prices {color: #d02f24;font:700 14px/16px "Raleway",sans-serif;padding: 6px 0 1px;}
+tr.price {color: #d02f24;font:700 14px/16px "Raleway",sans-serif;padding: 6px 0 1px;}
 td#CentralArea div.dynpg{ border-top:0px solid #ccc;}
 .v4acpcont{ margin-bottom:0 !important;}
 .v4acpcont+.v4acpcont{ display:block;}
