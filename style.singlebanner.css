@@ -15,6 +15,14 @@
 
 body{ padding:0; margin:0; font:400 12px/14px "Roboto",sans-serif; color:#000; background:#fff;}
 .wrapper img, #banner img{ max-width:100%; height:auto;}
+*{ padding:0px; margin:0px;}
+a img{ border:0px;}
+ul, ol{ list-style-type:none;}
+a{ text-decoration:none;}
+div:after, ul:after{	content:"";	height:0;	clear:both;	visibility:hidden;	display:block;}
+div{ display:block;}
+.clear{ clear:both; line-height:0; font-size:0;}
+.wrapper{ width:1200px; margin:0 auto;}
 
 *{ box-sizing:border-box; padding:0; margin:0;}
 div:after{ clear:both; content:""; display:table;}
