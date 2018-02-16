@@ -275,16 +275,7 @@
 .csslider1 > #cs_pause1_0:checked ~ ul > .slide {
   -webkit-transform: translateX(0%);
   transform: translateX(0%);
-}
-.csslider1 > #cs_slide1_1:checked ~ ul > .slide,
-.csslider1 > #cs_pause1_1:checked ~ ul > .slide {
-  -webkit-transform: translateX(-100%);
-  transform: translateX(-100%);
-}
-.csslider1 > #cs_slide1_2:checked ~ ul > .slide,
-.csslider1 > #cs_pause1_2:checked ~ ul > .slide {
-  -webkit-transform: translateX(-200%);
-  transform: translateX(-200%);
+
 }
  
 
