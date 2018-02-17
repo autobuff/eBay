@@ -193,7 +193,7 @@ td#CentralArea div.dynpg{ border-top:0px solid #ccc;}
 .v4acpcont+.v4acpcont{ display:block;}
 .v4acp{ /*display:none;*/}
 #LeftPanel .v4title{ padding:0 !important;}
-#LeftPanel h2{font:700 18px/42px "Roboto",sans-serif; color:#fff !important; text-transform:uppercase; text-align:center; background:#7dc7ea; margin:0 !important; position:relative;}
+#LeftPanel h2{font:700 18px/42px "Roboto",sans-serif; color:#fff !important; text-transform:uppercase; text-align:center; background:#cdcdcd; margin:0 !important; position:relative;}
 table.v4midBox{ border:none !important;}
 body a:link, body .g-novisited a:visited{ text-decoration:none !important;}
 table.v4midBox tr.v4acp_mid td.v4mid{ padding:0 !important;}
