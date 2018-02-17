@@ -218,6 +218,7 @@ table.pgbc{ background: none !important; padding:0 !important; border:0 !importa
 
 /* -------for ebay-------- */
 
+
 #LeftPanel ul{ background:#f9f9f9; margin:0; }
 #LeftPanel ul li{ margin:0 !important; list-style-type:none !important; border-top:solid 1px #efe9e9;}
 #LeftPanel ul li a{
@@ -234,6 +235,7 @@ font:400 15px/40px "Roboto",sans-serif; display:block; padding:0 0 0 25px; color
 #LeftPanel .s_recat li span{ display:none;}
 .toplne{ display:none;}
 div#LeftPanel{ float:left;}
+
 .section-holder{ padding:15px 0 0;}
 @media only screen and (max-width: 1198px) {
 .container { width:1000px;}
