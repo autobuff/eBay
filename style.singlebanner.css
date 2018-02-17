@@ -182,7 +182,7 @@ table.v4midBox{ border:none !important;}
 body a:link, body .g-novisited a:visited{ text-decoration:none !important;}
 table.v4midBox tr.v4acp_mid td.v4mid{ padding:0 !important;}
 div.lcat{ width:100% !important;}
-.heading-left, .lcat .ttl{display:none !important;}
+.heading-left, .lcat .ttl{display:STORE CATEGORIES;}
 .heading-left, .lcat .ttl {background: #32435d none repeat scroll 0 0;color: #fff !important;font: 700 18px/48px "Roboto",sans-serif;margin: 0 !important;text-transform: uppercase; text-indent:15px; border-radius:5px 5px 0 0;}
 .lcat .ttl a{ color:#fff;}
 .all_cats{ display:none!important;}
