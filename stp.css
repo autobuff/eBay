@@ -224,12 +224,12 @@ table.pgbc{ background: none !important; padding:0 !important; border:0 !importa
 #LeftPanel ul li a{
 font: 400 15px/40px "Roboto",sans-serif; display:block; padding:0 0 0 25px; color:#555;  text-decoration:none; background:url(../images/icon8.png) no-repeat 0 50%; transition: all 300ms ease-out 0s;}
 
-#LeftPanel ul li:hover > a, #LeftPanel ul li span{font: 400 13px/38px "Roboto",sans-serif; display:block; padding:0 0 0 25px; color:#32425d;  text-decoration:none;  background:url(../images/icon81.png) no-repeat 0 50% #231f20; color:#fff;}
+#LeftPanel ul li:hover > a, #LeftPanel ul li span{font: 400 13px/38px "Roboto",sans-serif; display:block; padding:0 0 0 25px; color:#32425d;  text-decoration:none;  background:url(../images/icon81.png) no-repeat 0 50% #231f20; color:#ddd;}
 
 #LeftPanel ul ul{ list-style-type:none !important; padding:0!important; background:#cdcdcd; padding:0 7px;}
 #LeftPanel ul ul li > a{font:400 13px/38px "Roboto",sans-serif; display:block; padding:0 0 0 34px; background-repeat:no-repeat; color:#555; text-transform:capitalize;  text-decoration:none; background:url(../images/icon8.png) no-repeat 8px 50%;}
 
-#LeftPanel ul ul li:hover > a, #LeftPanel ul ul li > span{font:400 13px/38px "Roboto",sans-serif; display:block; padding:0 0 0 34px;  color:#32425d; text-transform:capitalize;  text-decoration:none; background:url(../images/icon81.png) no-repeat 8px 50% #231f20; color:#fff;} 
+#LeftPanel ul ul li:hover > a, #LeftPanel ul li span{font: 400 13px/38px "Roboto",sans-serif; display:block; padding:0 0 0 25px; color:#32425d;  text-decoration:none;  background:url(../images/icon81.png) no-repeat 0 50% #231f20; color:#ddd;} 
 
 #LeftPanel ul li span.cnt{ display:none;}
 #LeftPanel .s_recat li span{ display:none;}
