@@ -193,7 +193,7 @@ td#CentralArea div.dynpg{ border-top:0px solid #ccc;}
 .v4acpcont+.v4acpcont{ display:block;}
 .v4acp{ /*display:none;*/}
 #LeftPanel .v4title{ padding:0 !important;}
-#LeftPanel h2{font:700 18px/42px "Roboto",sans-serif; color:#fff !important; text-transform:uppercase; text-align:center; background:#7dc7ea; margin:0 !important; border-radius:10px 10px 0 0; position:relative;}
+#LeftPanel h2{font:700 18px/42px "Roboto",sans-serif; color:#fff !important; text-transform:uppercase; text-align:center; background:#7dc7ea; margin:0 !important; position:relative;}
 table.v4midBox{ border:none !important;}
 body a:link, body .g-novisited a:visited{ text-decoration:none !important;}
 table.v4midBox tr.v4acp_mid td.v4mid{ padding:0 !important;}
@@ -219,13 +219,13 @@ table.pgbc{ background: none !important; padding:0 !important; border:0 !importa
 /* -------for ebay-------- */
 
 
-#LeftPanel ul{ background:#f9f9f9; margin:0; }
+#LeftPanel ul{ background:#cdcdcd; margin:0; }
 #LeftPanel ul li{ margin:0 !important; list-style-type:none !important; border-top:solid 1px #efe9e9;}
 #LeftPanel ul li a{
 font:400 15px/40px "Roboto",sans-serif; display:block; padding:0 0 0 25px; color:#000;  text-decoration:none; background:url(../images/icon8.png) no-repeat 0 50%; transition: all 300ms ease-out 0s;}
 
 #LeftPanel ul li:hover > a, #LeftPanel ul li span{
-font:400 15px/40px "Roboto",sans-serif; display:block; padding:0 0 0 25px; color:#fff;  text-decoration:none;  background:url(../images/icon81.png) no-repeat 0 50% #7dc7ea; color:#fff;}
+font:400 15px/40px "Roboto",sans-serif; display:block; padding:0 0 0 25px; color:#fff;  text-decoration:none;  background:url(../images/icon81.png) no-repeat 0 50% #cdcdcd; color:#fff;}
 
 #LeftPanel ul ul{ list-style-type:none !important; padding:0!important; background:#cdcdcd; padding:0 7px;}
 #LeftPanel ul ul li > a{font:400 13px/38px "Roboto",sans-serif; display:block; padding:0 0 0 34px; background-repeat:no-repeat; color:#000; text-transform:capitalize;  text-decoration:none; background:url(../images/icon8.png) no-repeat 8px 50%;}
