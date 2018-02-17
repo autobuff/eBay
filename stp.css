@@ -188,6 +188,7 @@ tr.price {color: #d02f24;font:700 14px/16px "Raleway",sans-serif;padding: 6px 0 
 td#CentralArea div.dynpg{ border-top:0px solid #ccc;}
 
 
+.td#CentralArea div.dynpg{ border-top:0px solid #ccc;}
 .v4acpcont{ margin-bottom:0 !important;}
 .v4acpcont+.v4acpcont{ display:block;}
 .v4acp{ /*display:none;*/}
@@ -214,7 +215,6 @@ td#CentralArea div.dynpg td.l{ padding-left:5px}
 table.pgbc{ background: none !important; padding:0 !important; border:0 !important;}
 .s_recat{ width:240px;}
 .cmpb, .sifExp{ display:none;}  
-
 
 /* -------for ebay-------- */
 
