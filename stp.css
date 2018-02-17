@@ -186,65 +186,60 @@ table.gallery .details {   padding:0 15px 15px;}
 .prices {color: #d02f24;font:700 14px/16px "Raleway",sans-serif;padding: 6px 0 1px;}
 tr.price {color: #d02f24;font:700 14px/16px "Raleway",sans-serif;padding: 6px 0 1px;}
 td#CentralArea div.dynpg{ border-top:0px solid #ccc;}
+
+
+.td#CentralArea div.dynpg{ border-top:0px solid #ccc;}
 .v4acpcont{ margin-bottom:0 !important;}
 .v4acpcont+.v4acpcont{ display:block;}
 .v4acp{ /*display:none;*/}
 #LeftPanel .v4title{ padding:0 !important;}
-#LeftPanel h2{font:700 18px/42px "Roboto",sans-serif; color:#fff !important; text-transform:uppercase; text-align:center; background:#7dc7ea; margin:0 !important; border-radius:10px 10px 0 0; position:relative; display:none;}
+#LeftPanel h2{font:700 18px/42px "Roboto",sans-serif; color:#fff !important; text-transform:uppercase; text-align:center; background:#7dc7ea; margin:0 !important; border-radius:10px 10px 0 0; position:relative;}
 table.v4midBox{ border:none !important;}
 body a:link, body .g-novisited a:visited{ text-decoration:none !important;}
 table.v4midBox tr.v4acp_mid td.v4mid{ padding:0 !important;}
 div.lcat{ width:100% !important;}
-.heading-left, .lcat .ttl{STORE CATEGORIES}
-.heading-left, .lcat .ttl {background: #32435d none repeat scroll 0 0;color: #fff !important;font: 700 18px/48px "Roboto",sans-serif;margin: 0 !important;text-transform: uppercase; text-indent:15px; border-radius:5px 5px 0 0;}
+.heading-left, .lcat .ttl{ display:none !important;}
 .lcat .ttl a{ color:#fff;}
 .all_cats{ display:none!important;}
 .bpmsg{ display:none;}
 .r3_c, .rs_box{ border:0 !important;}
 #LeftPanel{ width:280px;}
 .pagecontainer > table > tbody > tr > td > table+table{    margin: 0 auto;    width:1200px; max-width:100%; margin-bottom:10px;}
-.stBadge{ position:relative; margin:103px 0 0 !important; background:#000000;}
-.stBadge:before{ position:absolute; left:0; right:0; bottom:100%; content:""; height:103px; background:url(https://cdn.rawgit.com/autobuff/eBay/70a80226/footer1.png) no-repeat 50% 50% #000000;}
-td#CentralArea div.dynpg{ padding:1px 0 !important; /*background:#eaeaea;*/ color:#333; margin:1px 15px;font:400 15px/27px "Roboto",sans-serif;}
-td#CentralArea div.dynpg td.l{ width:33.3%; display:none;}
-td#CentralArea div.dynpg td.m{ width:33.3%;} 
-td#CentralArea div.dynpg td.r{ width:33.3%; display:none;} 
+.stBadge{ position:relative; margin:102px 0 0 !important;}
+.stBadge:before{ position:absolute; left:0; right:0; bottom:100%; content:""; height:102px; background:url(../images/footer1.jpg) no-repeat 50% 0;}
+td#CentralArea div.dynpg{ padding:10px 0 !important; background:#eaeaea; color:#333; margin:10px 0;font:400 15px/27px "Roboto",sans-serif; display:none;}
+td#CentralArea div.dynpg td.l, td#CentralArea div.dynpg td.m, td#CentralArea div.dynpg td.r{ width:33.3%;}
 td#CentralArea div.dynpg td.r{ text-align:right; padding-right:5px}
 td#CentralArea div.dynpg td.l{ padding-left:5px}
 .pgbc input[type="text"]{ width:87px!important; height:28px; border:none; font:400 13px/28px Arial, Helvetica, sans-serif; color:#000; margin:0 0 0 5px; box-shadow:0 0 1px #333;}
 table.pgbc{ background: none !important; padding:0 !important; border:0 !important;}
 .s_recat{ width:240px;}
-.cmpb, .sifExp{ display:none;} 
+.cmpb, .sifExp{ display:none;}  
 
-.stBadge-midContent{ display:none;} 
-.stBadge-accent td{ background:none !important;}
 /* -------for ebay-------- */
 
-.container{ position:relative;}
-#newsletter{ width:335px; height:103px; position:absolute; left:451px; top:100%; margin:10px 0 0; background:url(https://cdn.rawgit.com/autobuff/eBay/b9ece0f6/newsletter.png) no-repeat 50% 50%; z-index:99;}
-#newsletter a{ width:100%; height:100%; display:block;}
 
-#LeftPanel ul{ background:#cdcdcd; margin:0; }
+#LeftPanel ul{ background:#f9f9f9; margin:0; }
 #LeftPanel ul li{ margin:0 !important; list-style-type:none !important; border-top:solid 1px #efe9e9;}
 #LeftPanel ul li a{
-font:400 15px/40px "Roboto",sans-serif; display:block; padding:0 0 0 25px; color:#000; text-decoration:none;  transition: all 300ms ease-out 0s; text-transform:capitalize;}
-#LeftPanel ul li:hover a{ background:#231f20; color:#fff;}
+font:400 15px/40px "Roboto",sans-serif; display:block; padding:0 0 0 25px; color:#000;  text-decoration:none; background:url(../images/icon8.png) no-repeat 0 50%; transition: all 300ms ease-out 0s;}
 
-#LeftPanel ul li span{
-font:400 15px/40px "Roboto",sans-serif; display:block; padding:0 0 0 25px;  text-decoration:none;   color:#fff; background:#cdcdcd;}
+#LeftPanel ul li:hover > a, #LeftPanel ul li span{
+font:400 15px/40px "Roboto",sans-serif; display:block; padding:0 0 0 25px; color:#fff;  text-decoration:none;  background:url(../images/icon81.png) no-repeat 0 50% #7dc7ea; color:#fff;}
 
 #LeftPanel ul ul{ list-style-type:none !important; padding:0!important; background:#cdcdcd; padding:0 7px;}
-#LeftPanel ul ul li > a{font:400 13px/38px "Roboto",sans-serif; display:block; padding:0 0 0 34px; background-repeat:no-repeat; color:#000; text-transform:capitalize;  text-decoration:none;}
-#LeftPanel ul ul li:hover > a, #LeftPanel ul ul li > span{font:400 13px/38px "Roboto",sans-serif; display:block; padding:0 0 0 34px;  color:#fff; text-transform:capitalize;  text-decoration:none; background:#231f20;} 
+#LeftPanel ul ul li > a{font:400 13px/38px "Roboto",sans-serif; display:block; padding:0 0 0 34px; background-repeat:no-repeat; color:#000; text-transform:capitalize;  text-decoration:none; background:url(../images/icon8.png) no-repeat 8px 50%;}
+#LeftPanel ul ul li:hover > a, #LeftPanel ul ul li > span{font:400 13px/38px "Roboto",sans-serif; display:block; padding:0 0 0 34px;  color:#fff; text-transform:capitalize;  text-decoration:none; background:url(../images/icon81.png) no-repeat 8px 50% #7dc7ea;} 
 
 #LeftPanel ul li span.cnt{ display:none;}
 #LeftPanel .s_recat li span{ display:none;}
 .toplne{ display:none;}
-div#LeftPanel{ float:left; margin:20px 0 0;}
+div#LeftPanel{ float:left;}
+
 .section-holder{ padding:15px 0 0;}
 @media only screen and (max-width: 1198px) {
 .container { width:1000px;}
-
+.pagecontainer > table > tbody > tr > td > table+table{  width:1000px;}
 
 
 .pagecontainer > table > tbody > tr > td > table+table{  width:1000px;}
@@ -343,8 +338,8 @@ td#CentralArea div.dynpg td.l, td#CentralArea div.dynpg td.m, td#CentralArea div
 #right-section{ float:none; width:auto; margin:0;}
 .s_recat{ width:auto;}
 /* -------for ebay-------- */
-#LeftPanel h2:before{ position:absolute; right:10px; top:4px; display:block; content:"+";font:400 30px/40px "Roboto",sans-serif; color:#fff;}
-#LeftPanel:hover h2:before{ content:"Categories"; font-weight:700; top:-10px; right:13px;}
+ 
+ 
 .ess_content_area > tbody > tr > td { display:block; float:none; width:100%;}
 .stBadge{ min-width:inherit;}
 .dynpg{ text-align:center;}
@@ -363,15 +358,17 @@ tr.ess_holiday+tr > td{ padding:0;}
 #LeftPanel+td{ display:none;}
 #LeftPanel+td+td{ display:block;}
 .pagecontainer > table > tbody > tr > td > table+table{  width:98%;}
-.stBadge{ margin:103px 0 0 !important;}
-.stBadge:before{ background:url(https://cdn.rawgit.com/autobuff/eBay/70a80226/footer4.png) no-repeat 50% 0 #000000; height:103px;}
+.stBadge{ margin:85px 0 0 !important;}
+.stBadge:before{ background:url(../images/footer5.jpg) no-repeat 50% 0 #79bfe1; height:85px;}
 .rs-pview{ padding:0 !important; margin:0;}
 .heading-left, .lcat .ttl{ text-align:left; text-indent:15px; position:relative;}
-.heading-left, .lcat .ttl:before{ position:absolute; right:10px; top:4px; display:block; content:"+";font:400 30px/40px "Roboto",sans-serif; color:#fff;}
-.heading-left, .lcat:hover .ttl:before{ content:"_"; font-weight:700; top:-10px; right:13px;}
+#LeftPanel h2:before{ position:absolute; right:10px; top:4px; display:block; content:"+";font:400 30px/40px "Roboto",sans-serif; color:#fff;}
+#LeftPanel:hover h2:before{ content:"_"; font-weight:700; top:-10px; right:13px;}
 #LeftPanel .lcat > ul{ height:0px; opacity:0; overflow:hidden; transition: all 300ms ease-out 0s;}
 #LeftPanel:hover .lcat > ul{ height:auto;  opacity:1;}
 #LeftPanel .lcat > ul li:last-child{ border-bottom:1px solid #efe9e9;}
+ 
+ 
 /* -------for ebay-------- */
 #newsletter{ display:none;}
 }
