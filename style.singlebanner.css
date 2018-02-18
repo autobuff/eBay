@@ -182,14 +182,17 @@ td#CentralArea div.dynpg{ border-top:0px solid #ccc;}
 .v4acpcont{ margin-bottom:0 !important;}
 .v4acpcont+.v4acpcont{ display:block;}
 .v4acp{ /*display:none;*/}
+.td#CentralArea div.dynpg{ border-top:0px solid #ccc;}
+.v4acpcont{ margin-bottom:0 !important;}
+.v4acpcont+.v4acpcont{ display:block;}
+.v4acp{ /*display:none;*/}
 #LeftPanel .v4title{ padding:0 !important;}
-#LeftPanel h2{font:700 18px/42px "Roboto",sans-serif; color:#ddd !important; text-transform:uppercase; text-align:center; background:#32425d; margin:0 !important; border-radius:10px 10px 0 0; position:relative;}
+#LeftPanel h2{font: 500 18px/42px "Roboto",sans-serif; color:#ececec !important; text-transform:uppercase; text-align:left; padding-left:15px; background:#54afde; margin:0 !important; border-radius: 0px 0px 0 0; position:relative;}
 table.v4midBox{ border:none !important;}
 body a:link, body .g-novisited a:visited{ text-decoration:none !important;}
 table.v4midBox tr.v4acp_mid td.v4mid{ padding:0 !important;}
 div.lcat{ width:100% !important;}
-.heading-left, .lcat .ttl{display:STORE CATEGORIES;}
-.heading-left, .lcat .ttl {background: #32435d none repeat scroll 0 0;color: #fff !important;font: 700 18px/48px "Roboto",sans-serif;margin: 0 !important;text-transform: uppercase; text-indent:15px; border-radius:5px 5px 0 0;}
+.heading-left, .lcat .ttl{ display:none !important;}
 .lcat .ttl a{ color:#fff;}
 .all_cats{ display:none!important;}
 .bpmsg{ display:none;}
