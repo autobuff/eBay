@@ -147,7 +147,8 @@ span.pdmt .cur{ color:#666 !important;}
 .fixed tr td{ display:none;}
 .fixed tr td+td{ width:100%; display:block;}
 .fixed tr+tr{ width:100%; display:block;}
-.mi{ display:block;}
+.mi{ display:none;}
+.ship{ display:block;}
 .link{ display:none;}
 .mi{ text-align:left; padding:0 15px;}
 td.price{ text-align:center;}
