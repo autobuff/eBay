@@ -158,6 +158,7 @@ span.pll, a.pll {    font-family: Verdana,Arial;    font-size: x-small;    paddi
 .fixed span.bin{    color: #000000;    font:400 16px/20px "Roboto",sans-serif; float:none; letter-spacing:1px; text-align:center;}
 .fixed span.stp{    color: #999;    font:400 14px/20px "Roboto",sans-serif; float:none; letter-spacing:1px; text-align:center;}
 .fixed span.ship.fshp{    color: #999;    font:400 14px/20px "Roboto",sans-serif; float:none; letter-spacing:1px; text-align:center;}
+.fixed span.fshp{    color: #999;    font:400 14px/20px "Roboto",sans-serif; float:none; letter-spacing:1px; text-align:center;}
 .basics{ font:400 14px/16px "Roboto",sans-serif; color:#696969; padding:10px 0 0;}
 .gallery{ text-align:center;}
 td.details a{ color:#333;}
