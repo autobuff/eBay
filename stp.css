@@ -50,9 +50,9 @@ background: #000000;
 #CentralArea > p {    color: black;    font-size: 14px;    margin-right: 10px;    padding: 22px 0 0;    text-align: justify;}
 #header-top{ background:#1f1a17; padding:15px;}
 #logo{ float:left; padding:0 0 6px;}
-#search {float:right;overflow: hidden;position: relative;width:300px; height:40px; margin:16px 0 0; border:solid 1px #aaaaaa; border-radius:5px;}
+#search {float:right;overflow: hidden;position: relative;width:300px; height:40px; margin:16px 0 0; border:solid 1px #54afde; border-radius:5px;}
 #search input[type="text"] {background: #fff;border: 0 none;font:400 14px/38px "Roboto",sans-serif;height:38px;text-indent: 10px;width:100%; color:#000000; }
-#search input[type="submit"], #search input[type="button"] {background:#c2c2c2 url(https://cdn.rawgit.com/autobuff/eBay/1db2c03e/magnify.png) no-repeat scroll 50% 50%;border: 0 none;height:38px;position: absolute;right: 0;top: 0;width: 40px; cursor:pointer; font-size:0;}
+#search input[type="submit"], #search input[type="button"] {background:#54afde url(https://cdn.rawgit.com/autobuff/eBay/1db2c03e/magnify.png) no-repeat scroll 50% 50%;border: 0 none;height:38px;position: absolute;right: 0;top: 0;width: 40px; cursor:pointer; font-size:0;}
 .top_white{ float:right; padding:15px 0 25px;}
 
 #nav-btn{ display:none;}
