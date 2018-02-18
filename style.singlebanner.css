@@ -67,7 +67,7 @@ background: #000000;
 #banner{ overflow:hidden; display:none;}
 #banner img{ max-width:100%; border:none; height:auto;}
 
-#banner-bottom{ background:#32435d; border-bottom:solid 14px #e1e1e1; border-top:solid 14px #e1e1e1;}
+#banner-bottom{ background:#54afde; border-bottom:solid 14px #e1e1e1; border-top:solid 14px #e1e1e1;}
 
 #bodysec{  padding:0 0 30px;}
 #shipping-section{ padding:15px 0 0;}
@@ -137,18 +137,23 @@ span.pdmt .cur{ color:#666 !important;}
 
 .fixed tr td{ display:none;}
 .fixed tr td+td{ width:100%; display:block;}
-.fixed tr+tr{ display:none;}
+.fixed tr+tr{ width:100%; display:block;}
 .mi{ display:none;}
+.ship{ display:block;}
 .link{ display:none;}
 .mi{ text-align:left; padding:0 15px;}
 td.price{ text-align:center;}
+tr.price{ text-align:center;}
+
 span.ppr, a.ppr {    background-image: url("http://q.ebaystatic.com/aw/pics/search/sprMega2.png");  background-position: -144px -64px;    background-repeat: no-repeat;}
 span.pll, a.pll {    font-family: Verdana,Arial;    font-size: x-small;    padding: 1px 0 2px 21px; color:#696969;}
-.fixed span.bin{    color: #000000;    font:400 16px/20px "Roboto",sans-serif; float:none; letter-spacing:1px; text-align:center;}
+.fixed span.bin{    color: #000000;    font:1000 16px/20px "Roboto",sans-serif; float:none; letter-spacing:1px; text-align:center;}
 .fixed span.stp{    color: #999;    font:400 14px/20px "Roboto",sans-serif; float:none; letter-spacing:1px; text-align:center;}
+.fixed span.label{    color: #999;    font:400 14px/20px "Roboto",sans-serif; float:none; letter-spacing:1px; text-align:center;}
+.fixed span.ship.fshp{    color: #999;    font:400 14px/20px "Roboto",sans-serif; float:none; letter-spacing:1px; text-align:center;}
+.fixed span.fshp{    color: #999;    font:400 14px/20px "Roboto",sans-serif; float:none; letter-spacing:1px; text-align:center;}
 .basics{ font:400 14px/16px "Roboto",sans-serif; color:#696969; padding:10px 0 0;}
 .gallery{ text-align:center;}
-td.details a{ color:#333;}
 .gallery .details a{    color: #242424;    font:400 16px/18px "Roboto",sans-serif; padding:10px 0;  display:block;}
 .gallery .details a:hover{ text-decoration:none !important;}
 table.gallery .subtitle{ display:none;}
