@@ -59,9 +59,9 @@ background: #000000;
 #navigation-panel{clear:both; position:relative; background: #262626; }
 #navigation-panel ul{ margin-bottom:0;}
 #navigation-panel ul li{ float:left; position:relative;}
-#navigation-panel ul li a{ display:block; color:#ddd;font:400 13px/45px 'Arial'; text-transform:uppercase; padding:0 62px;}
+#navigation-panel ul li a{ display:block; color:#ececec;font:400 13px/45px 'Arial'; text-transform:uppercase; padding:0 62px;}
 #navigation-panel ul li ul li a{ padding:0 15px;}
-#navigation-panel ul li a:hover, #navigation-panel ul li a:focus{ color:#4eaee0;}
+#navigation-panel ul li a:hover, #navigation-panel ul li a:focus{ color:#54afde;}
 
 #navigation-panel ul li.hasmenu > a{ background-image:url(../images/submenu.png); background-repeat:no-repeat; background-position:calc(100% - 15px) 50%; cursor:pointer;}
 #navigation-panel ul li .submenu{ display:none;}
