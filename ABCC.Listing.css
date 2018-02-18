@@ -48,9 +48,9 @@ ul, ol{ list-style-type:none; padding:0; margin:0;}
     
 }
 #logo{ text-align: center; padding:0 0 6px;}
-#search {float:right;overflow: hidden;position: relative;width:300px; height:40px; margin:16px 0 0; border:solid 1px #aaaaaa; border-radius:5px;}
+#search {float:right;overflow: hidden;position: relative;width:300px; height:40px; margin:16px 0 0; border:solid 1px #54afde; border-radius:5px;}
 #search input[type="text"] {background: #fff;border: 0 none;font:400 14px/40px "Roboto",sans-serif;height:40px;text-indent: 10px;width:calc(100% - 40px); color:#000000; }
-#search input[type="submit"], #search input[type="button"] {background:#c2c2c2 url(https://cdn.rawgit.com/autobuff/eBay/1db2c03e/magnify.png) no-repeat scroll 50% 50%;border: 0 none;height:40px;position: absolute;right: 0;top: 0;width: 40px; cursor:pointer; font-size:0;}
+#search input[type="submit"], #search input[type="button"] {background:#54afde url(https://cdn.rawgit.com/autobuff/eBay/1db2c03e/magnify.png) no-repeat scroll 50% 50%;border: 0 none;height:40px;position: absolute;right: 0;top: 0;width: 40px; cursor:pointer; font-size:0;}
 #footer > div > div.ft2 > h3 > a {color: white;}
 #nav-btn{ display:none;}
 #navigation-panel{clear:both; position:relative; background:#262626;}
@@ -70,7 +70,7 @@ ul, ol{ list-style-type:none; padding:0; margin:0;}
 #navigation-panel input[type="checkbox"]{ display:none;}
 #navigation-panel input[type="checkbox"]:checked+ul{ display:block;}
  
- #banner-bottom{ background:#32435d; border-bottom:solid 14px #e1e1e1; border-top:solid 14px #e1e1e1;}
+ #banner-bottom{ background:#54afde; border-bottom:solid 14px #e1e1e1; border-top:solid 14px #e1e1e1;}
  
 .gift1{ float: left;padding:23px 0;width:24.80%; text-align:center; box-sizing:border-box;}
 /*.gift1+.gift1{ background:url(../images/divider.png) no-repeat 0 50%;}*/
