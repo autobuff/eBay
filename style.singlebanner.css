@@ -41,9 +41,9 @@ background: #000000;
 #CentralArea > p {    color: black;    font-size: 14px;    margin-right: 10px;    padding: 22px 0 0;    text-align: justify;}
 #header-top{ background:#1f1a17; padding:15px;}
 #logo{ float:left; padding:0 0 6px;}
-#search {float:right;overflow: hidden;position: relative;width:300px; height:40px; margin:16px 0 0; border:solid 1px #aaaaaa; border-radius:5px;}
+#search {float:right;overflow: hidden;position: relative;width:300px; height:40px; margin:16px 0 0; border:solid 1px #54afde; border-radius:5px;}
 #search input[type="text"] {background: #fff;border: 0 none;font:400 14px/38px "Roboto",sans-serif;height:38px;text-indent: 10px;width:100%; color:#000000; }
-#search input[type="submit"], #search input[type="button"] {background:#c2c2c2 url(https://cdn.rawgit.com/autobuff/eBay/1db2c03e/magnify.png) no-repeat scroll 50% 50%;border: 0 none;height:38px;position: absolute;right: 0;top: 0;width: 40px; cursor:pointer; font-size:0;}
+#search input[type="submit"], #search input[type="button"] {background:#54afde url(https://cdn.rawgit.com/autobuff/eBay/1db2c03e/magnify.png) no-repeat scroll 50% 50%;border: 0 none;height:38px;position: absolute;right: 0;top: 0;width: 40px; cursor:pointer; font-size:0;}
 .top_white{ float:right; padding:15px 0 25px;}
 
 #nav-btn{ display:none;}
@@ -301,7 +301,7 @@ td#CentralArea div.dynpg td.l, td#CentralArea div.dynpg td.m, td#CentralArea div
 #add-section > div:first-child{ margin: 1px 0 10px;}
 #add-section > div { float: none; margin: 15px 0 0; width:100%; text-align:center;}
 #navigation-panel{ padding:0; float:left; width:50px; margin:-55px 0 0 10px; position:relative; z-index:99; background:none;}
-#nav-btn{ display:block; margin:10px 5px 0; background:url(https://cdn.rawgit.com/autobuff/eBay/7b57c99d/navigation.png) no-repeat 0 50%; font-size:0; height:32px; color:#fff; text-transform:uppercase; cursor:pointer; border-radius:4px;}
+#nav-btn{ display:block; margin:10px 5px 0; background:url(https://raw.githubusercontent.com/autobuff/eBay/94d4763c/nav-btn.png) no-repeat 0 50%; font-size:0; height:32px; color:#fff; text-transform:uppercase; cursor:pointer; border-radius:4px;}
 #navigation-panel ul{ width:290px; display:none; padding:0; background:#666; box-shadow:0 0 4px #323232; position:absolute; left:0; top:100%;}
 #navigation-panel ul li, #navigation-panel ul li:last-child{ float:none; text-align:left;}
 #navigation-panel ul li, #navigation-panel ul li+li{ background:none; border-top:solid 1px #323232; padding:0; border-left:none;}
