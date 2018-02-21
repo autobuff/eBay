@@ -344,7 +344,7 @@ td#CentralArea div.dynpg td.l, td#CentralArea div.dynpg td.m, td#CentralArea div
 .s_recat{ width:auto;}
 /* -------for ebay-------- */
 #LeftPanel h2:before{ position:absolute; right:10px; top:4px; display:block; content:"+";font:400 30px/40px "Roboto",sans-serif; color:#fff;}
-#LeftPanel:hover h2:before{ content:"Categories"; font-weight:700; top:-10px; right:13px;}
+#LeftPanel:hover h2:before{ font-weight:700; top:-10px; right:13px;}
 .ess_content_area > tbody > tr > td { display:block; float:none; width:100%;}
 .stBadge{ min-width:inherit;}
 .dynpg{ text-align:center;}
