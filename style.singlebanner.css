@@ -29,7 +29,7 @@ div:after{ clear:both; content:""; display:table;}
 body a:link, body .g-novisited a:visited{ text-decoration:none !important;}
 .ess_background ul, .ess_background ol, #footer-section ul , ul, ol{ list-style-type:none; padding:0; margin:0;}
 .ess_background div:after, ess_background ul:after, .ess_background ol:after, #footer-section ul:after, #footer-section div:after , ul:after, ol:after, div:after{ clear:both; line-height:0; content:""; visibility:hidden; display:block;}
-#header{ background: #262621; border-bottom: solid 1px #ececec}
+#header{ background: #262626; border-bottom: solid 1px #ececec}
 
 .container { width:1200px; margin:0 auto; vertical-align:top;}
 .pagecontainer > table > tbody > tr > td > table+table{    margin: 0 auto;    width:1200px; max-width:100%}
@@ -74,9 +74,9 @@ body a:link, body .g-novisited a:visited{ text-decoration:none !important;}
 .gift1 > div {color: #fff;display: inline-block;font:300 18px/20px "Raleway",sans-serif;padding:0 0 0 68px;position: relative;text-align: left; text-transform:capitalize;}
 .gift1 > div strong{ font:700 18px/20px "Raleway",sans-serif;}
 .gift1 > div img{ position:absolute; left:0; top:-5px;}
-.gift1:nth-child(4n+2){ background:#262621; transform: skew(-13deg);  }
+.gift1:nth-child(4n+2){ background:#262626; transform: skew(-13deg);  }
 .gift1:nth-child(4n+2) > div{  transform: skew(13deg);}
-.gift1:nth-child(4n+4){ background:#262621; transform: skew(-13deg);}
+.gift1:nth-child(4n+4){ background:#262626; transform: skew(-13deg);}
 .gift1:nth-child(4n+4) > div{  transform: skew(13deg);}
 
 .addsection{ margin:15px 0 0;}
