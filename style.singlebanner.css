@@ -86,7 +86,7 @@ body a:link, body .g-novisited a:visited{ text-decoration:none !important;}
 .thirty div{ padding:16px 0 0;}
 
 .product_sec{ background:#fff;  margin:25px 0 0;}
-.heading {background:url(https://cdn.rawgit.com/autobuff/eBay/08fdf015/line-heading.jpg) repeat-x 0 50%; color: #000;font:400 29px/32px "Roboto",sans-serif;   padding:0 0 10px; border-bottom:double 1px #ccc; text-transform:uppercase;}
+.heading { background:url(https://cdn.rawgit.com/autobuff/eBay/08fdf015/line-heading.jpg) repeat-x 0 50%; font:400 30px/32px "Roboto",sans-serif; color:#000; text-align:center;}
 .heading span{ font-weight:400; text-transform:capitalize; font-size:18px;}
 .heading-right {float: right;font:400 15px/30px "Raleway",sans-serif;padding: 5px;text-transform: none;}
 .heading-right select {-moz-appearance: none;background: #fff url(.jpg) no-repeat scroll calc(100% - 0px) 50%;border: 1px solid #888888;cursor: pointer;height: 26px;margin: 0 0 0 5px;padding: 0 24px 0 0;}
