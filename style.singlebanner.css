@@ -89,9 +89,9 @@ body a:link, body .g-novisited a:visited{ text-decoration:none !important;}
 .product_sec{ padding:20px 0;}
 .heading{ background:url(https://cdn.rawgit.com/autobuff/eBay/08fdf015/line-heading.jpg) repeat-x 0 50%; font:400 30px/32px "Roboto",sans-serif; color:#000; text-align:center;}
 .heading span{ background:#fff; padding:0 30px; text-transform:uppercase;}
-.heading ul{ padding:20px 0 0;}
-.heading ul li{ float:left; margin:0 0 0 24px;}
-.heading ul li:first-child{ margin-left:0;}
+.product_sec ul{ padding:20px 0 0;}
+.product_sec ul li{ float:left; margin:0 0 0 24px;}
+.product_sec ul li:first-child{ margin-left:0;}
 
 
 
@@ -277,7 +277,7 @@ td.gallery{ padding:0;}
 .gift1 > div strong{ font-size:14px;}
 .gift1 > div{ padding:0 0 0 58px; font-size:12px;}
 .brandsec ul li{ margin:0 0 0 8px;}
-
+.product_sec ul li{ margin:0 0 0 8px;}
 /* -------for ebay-------- */
 #fpcap .countClass, #fpcap .matchClass, #fpcap .keywordClass{ font-size:16px !important;}
 #LeftPanel{ width:230px;}
@@ -339,7 +339,7 @@ td#CentralArea div.dynpg td.l, td#CentralArea div.dynpg td.m, td#CentralArea div
 .seventy{ width:100%; float:none;}
 .thirty{width:100%; float:none;}
 .brandsec ul li{ float:none; margin:4px 0 0 0; text-align:center;}
-
+.product_sec ul li{ float:none; margin:4px 0 0 0; text-align:center;}
 
 #footer-top > div{ width:100%; float:none;  text-align:center;}
 #footer-top > div ul{ display:table; margin:0 auto;}
