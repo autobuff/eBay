@@ -331,7 +331,7 @@ td#CentralArea div.dynpg td.l, td#CentralArea div.dynpg td.m, td#CentralArea div
 .gift1:nth-child(4n+4){ border:none; transform:none;}
 .gift1:nth-child(4n+4) > div{ transform:none;}
 
-.seventy{ width:100%; float:none; padding-bottom 1px;}
+.seventy{ width:100%; float:none; padding-bottom: 16px;}
 .thirty{width:100%; float:none;}
 .brandsec ul li{ float:none; margin:4px 0 0 0; text-align:center;}
 .product_sec ul li{ float:none; margin:4px 0 0 0; text-align:center;}
