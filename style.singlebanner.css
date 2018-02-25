@@ -306,9 +306,8 @@ td#CentralArea div.dynpg td.l, td#CentralArea div.dynpg td.m, td#CentralArea div
 .brandheading-right{ float:none;} 
  
    
-.heading{ border:none; font-size:20px; line-height:22px; padding:0 0 40px; text-align:center;}
-.heading-right{ float:none;}
-.product_sec{ padding:14px;}
+.heading{ border:none; font-size:20px; line-height:22px; text-align:center;}
+.heading-right{ float:none;} 
 
 #add-section > div:first-child{ margin: 1px 0 10px;}
 #add-section > div { float: none; margin: 15px 0 0; width:100%; text-align:center;}
