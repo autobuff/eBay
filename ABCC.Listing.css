@@ -201,7 +201,7 @@ ul, ol{ list-style-type:none; padding:0; margin:0;}
 .container { width:750px;}
 #navigation-panel ul li a {    padding: 0 10px;}
 #details-left{ width:100%; float:none;}
-#details-right h1{ color:#464545; font:400 32px/35px "Roboto",sans-serif; padding:0 7px 10px; text-transform:uppercase; text-align: left; border-bottom:solid 1px #cccccc;}
+#details-right h1{ color:#464545; font:400 32px/35px "Roboto",sans-serif; padding:0 0 10px; text-transform:uppercase; text-align: left; border-bottom:solid 1px #cccccc;}
 #details-right{ width:100%; float:none; padding:15px 7px 0; text-align: justify;}
 #shipping-section > div{ width:49%; padding:0 0 15px 125px;}
 #shipping-section > div:nth-child(4n+3){ margin:15px 0 0 0;}
