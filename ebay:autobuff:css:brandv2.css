@@ -279,64 +279,8 @@ article img {
   .list-brand #slider-product #brand49:checked ~ #slides-product  .inner-product  { margin-left:-733.334%; }
   .list-brand #slider-product #brand50:checked ~ #slides-product  .inner-product  { margin-left:-733.334%; }
   
-	.list-brand #active-product  label{display:inline-block !important;}	
-	/*#slider input ~ #controls label:first-child,*/
-	.list-brand #slider-product #brand1:checked ~ #controls-product label:nth-child(2), 
-  .list-brand #slider-product #brand2:checked ~ #controls-product label:nth-child(3), 
-  .list-brand #slider-product #brand3:checked ~ #controls-product label:nth-child(4),
-  .list-brand #slider-product #brand4:checked ~ #controls-product label:nth-child(5),
-  .list-brand #slider-product #brand5:checked ~ #controls-product label:nth-child(6),
-  .list-brand #slider-product #brand6:checked ~ #controls-product label:nth-child(7),
-  .list-brand #slider-product #brand7:checked ~ #controls-product label:nth-child(8),
-  .list-brand #slider-product #brand8:checked ~ #controls-product label:nth-child(9),
-  .list-brand #slider-product #brand9:checked ~ #controls-product label:nth-child(10),
-  .list-brand #slider-product #brand10:checked ~ #controls-product label:nth-child(11),
-  .list-brand #slider-product #brand11:checked ~ #controls-product label:nth-child(12),
-  .list-brand #slider-product #brand12:checked ~ #controls-product label:nth-child(13),
-  .list-brand #slider-product #brand13:checked ~ #controls-product label:nth-child(14),
-  .list-brand #slider-product #brand14:checked ~ #controls-product label:nth-child(15),
-  .list-brand #slider-product #brand15:checked ~ #controls-product label:nth-child(16),
-  .list-brand #slider-product #brand16:checked ~ #controls-product label:nth-child(17),
-  .list-brand #slider-product #brand17:checked ~ #controls-product label:nth-child(18),
-  .list-brand #slider-product #brand18:checked ~ #controls-product label:nth-child(19),
-  .list-brand #slider-product #brand19:checked ~ #controls-product label:nth-child(20),
-  .list-brand #slider-product #brand20:checked ~ #controls-product label:nth-child(21),
-  .list-brand #slider-product #brand21:checked ~ #controls-product label:nth-child(22),
-  .list-brand #slider-product #brand22:checked ~ #controls-product label:nth-child(23),
-  .list-brand #slider-product #brand23:checked ~ #controls-product label:nth-child(24),
-  .list-brand #slider-product #brand24:checked ~ #controls-product label:nth-child(25),
-  .list-brand #slider-product #brand25:checked ~ #controls-product label:nth-child(26),
-  .list-brand #slider-product #brand26:checked ~ #controls-product label:nth-child(27),
-  .list-brand #slider-product #brand27:checked ~ #controls-product label:nth-child(28),
-  .list-brand #slider-product #brand28:checked ~ #controls-product label:nth-child(29),
-  .list-brand #slider-product #brand29:checked ~ #controls-product label:nth-child(30),
-  .list-brand #slider-product #brand30:checked ~ #controls-product label:nth-child(31),
-  .list-brand #slider-product #brand31:checked ~ #controls-product label:nth-child(32),
-  .list-brand #slider-product #brand32:checked ~ #controls-product label:nth-child(33),
-  .list-brand #slider-product #brand33:checked ~ #controls-product label:nth-child(34),
-  .list-brand #slider-product #brand34:checked ~ #controls-product label:nth-child(35),
-  .list-brand #slider-product #brand35:checked ~ #controls-product label:nth-child(36),
-  .list-brand #slider-product #brand36:checked ~ #controls-product label:nth-child(37),
-  .list-brand #slider-product #brand37:checked ~ #controls-product label:nth-child(38),
-  .list-brand #slider-product #brand38:checked ~ #controls-product label:nth-child(39),
-  .list-brand #slider-product #brand39:checked ~ #controls-product label:nth-child(40),
-  .list-brand #slider-product #brand40:checked ~ #controls-product label:nth-child(41),
-  .list-brand #slider-product #brand41:checked ~ #controls-product label:nth-child(42),
-  .list-brand #slider-product #brand42:checked ~ #controls-product label:nth-child(43),
-  .list-brand #slider-product #brand43:checked ~ #controls-product label:nth-child(44),
-  .list-brand #slider-product #brand44:checked ~ #controls-product label:nth-child(45),
-  .list-brand #slider-product #brand45:checked ~ #controls-product label:nth-child(46),
-  .list-brand #slider-product #brand46:checked ~ #controls-product label:nth-child(47),
-  .list-brand #slider-product #brand47:checked ~ #controls-product label:nth-child(47),
-  .list-brand #slider-product #brand48:checked ~ #controls-product label:nth-child(47),
-  .list-brand #slider-product #brand49:checked ~ #controls-product label:nth-child(47),
-  .list-brand #slider-product #brand50:checked ~ #controls-product label:nth-child(47){ 
-    background:none ;   
-    background: rgba(0, 0, 0, 0) url("https://cdn.rawgit.com/autobuff/eBay/5887984b/slider-right.png") no-repeat scroll 0 0px;
-    display: block;
-    opacity: 1;
-    right: 0px;
-  } 
+
+ 
 	/*#product1:checked ~ #controls label:nth-last-child(2),*/
 	.list-brand #slider-product #brand1:checked ~ #controls-product label:nth-child(50), 
 	.list-brand #slider-product #brand2:checked ~ #controls-product label:nth-child(1), 
