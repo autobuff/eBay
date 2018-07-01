@@ -33,3 +33,11 @@
   float: left;
   padding: 10px;
 }
+@media (max-width: 480px) {
+  .brands .brand-img {
+  height: 117px;
+  width: 33.33%;
+}
+  .brands {
+  padding-left: 3px;
+}
