@@ -1,7 +1,7 @@
 .brands {
   width: 100%;
   float: left;
-  padding-top: 30px;
+  padding-top: 0px;
   padding-bottom: 3px;
 }
 
@@ -12,13 +12,13 @@
 .brands .brands-img-container {
   width: 100%;
   float: left;
-  border-top: 1px solid #e0e0e0;
-  border-left: 1px solid #e0e0e0;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
 }
 
 .brands .brand-img {
-  border-right: 1px solid #e0e0e0;
-  border-bottom: 1px solid #e0e0e0;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
   width: 20%;
   height: 117px;
   box-sizing: border-box;
@@ -31,10 +31,4 @@
   justify-content: center;
   float: left;
   padding: 10px;
-}
-
-.brands .brand-img:hover {
-	-webkit-box-shadow: inset 0px 0px 17px -5px rgba(0,0,0,0.75);
-	-moz-box-shadow: inset 0px 0px 17px -5px rgba(0,0,0,0.75);
-	box-shadow: inset 0px 0px 17px -5px rgba(0,0,0,0.75);
 }
