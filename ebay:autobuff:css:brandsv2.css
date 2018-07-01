@@ -12,13 +12,13 @@
 .brands .brands-img-container {
   width: 100%;
   float: left;
-  border-top: 1px solid #000;
-  border-left: 1px solid #000;
+  border-top: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
 }
 
 .brands .brand-img {
-  border-right: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
   width: 20%;
   height: 117px;
   box-sizing: border-box;
