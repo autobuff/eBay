@@ -20,6 +20,7 @@ img{ max-width:100%; vertical-align:middle;}
 a:link, a:visited{ text-decoration:none !important;}
 ul, ol{ list-style-type:none; padding:0; margin:0;}
 #header{ background:#000000;}
+#header{ border-bottom: solid 1px #ececec;}
 .container { width:1200px; margin:0 auto; vertical-align:top;}
 
 #details-right > h3:nth-child(2) {color: #32435d;
