@@ -54,7 +54,7 @@ ul, ol{ list-style-type:none; padding:0; margin:0;}
 #footer > div > div.ft2 > h3 > a {color: white;}
 #nav-btn{ display:none;}
 #navigation-panel{clear:both; position:relative; background:#262626;}
-#navigation-panel ul{ margin-bottom:-10;}
+#navigation-panel ul{ margin-bottom:0;}
 #navigation-panel ul li{ float:left; position:relative;}
 #navigation-panel ul li a{ display:block; color:#ececec;font:400 14px/47px 'Arial'; text-transform:uppercase; padding:0 62px;}
 #navigation-panel ul li ul li a{ padding:0 15px;}
@@ -69,6 +69,7 @@ ul, ol{ list-style-type:none; padding:0; margin:0;}
 #navigation-panel ul ul li a{ white-space:nowrap; font:400 17px/40px 'WalkwayBlack';}
 #navigation-panel input[type="checkbox"]{ display:none;}
 #navigation-panel input[type="checkbox"]:checked+ul{ display:block;}
+#navigation-panel ul, ol {color:#000;font:400 16px/20px "Roboto",sans-serif;padding:0 0 0px;text-align: left ;}
  
  #banner-bottom{ background:#54afde; border-bottom:solid 14px #e1e1e1; border-top:solid 14px #e1e1e1;}
  
