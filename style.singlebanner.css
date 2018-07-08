@@ -64,7 +64,7 @@ body a:link, body .g-novisited a:visited{ text-decoration:none !important;}
 #banner{ overflow:hidden; display:none;}
 #banner img{ max-width:100%; border:none; height:auto;}
 
-#banner-bottom{ background:#54afde; border-bottom:solid 14px #e1e1e1; border-top:solid 14px #e1e1e1;}
+#banner-bottom{ background:#54afde; border-bottom:solid 10px #e1e1e1; border-top:solid 10px #e1e1e1;}
 
 #bodysec{  padding:0 0 30px;}
 #shipping-section{ padding:15px 0 0;}
