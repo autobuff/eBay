@@ -72,7 +72,7 @@ ul, ol{ list-style-type:none; padding:0; margin:0;}
 #navigation-panel input[type="checkbox"]:checked+ul{ display:block;}
 
  
- #banner-bottom{ background:#54afde; border-bottom:solid 14px #e1e1e1; border-top:solid 14px #e1e1e1;}
+ #banner-bottom{ background:#54afde; border-bottom:solid 10px #e1e1e1; border-top:solid 10px #e1e1e1;}
  
 .gift1{ float: left;padding:23px 0;width:24.80%; text-align:center; box-sizing:border-box;}
 /*.gift1+.gift1{ background:url(../images/divider.png) no-repeat 0 50%;}*/
