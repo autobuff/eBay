@@ -169,7 +169,7 @@ ul, ol {color:#464545;font:400 16px/20px "Roboto",sans-serif;padding:0 0 10px;te
 
 
 .slider .grid-item ~ .img-details img{ position: absolute; top: 0; left: 0%; margin: 0 auto; max-width: 600px; max-height: 600px; width: 100%;}
-.slider .grid-item:hover ~ .img-details img{  width: 150%;  height:auto;  max-width:150%;  max-height:150%}
+.slider .grid-item:hover ~ .img-details img{  height: 200%; width: 200%; max-width: 200%; max-height: 200%; -webkit-transition-property: transform; transition-property: transform; -webkit-transition: 600ms ease-out; transition: 600ms ease-out;}
 .slider input[name='slide_switch'] { display: none;}
 .slider label { margin: 13px 0.5% 0; cursor: pointer; transition: all 0.5s; opacity: 1; float:left; width:24%;}
 .slider span {  text-align:center; display:block; border: 1px solid #ccc;}
