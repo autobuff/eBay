@@ -29,7 +29,7 @@ div:after{ clear:both; content:""; display:table;}
 body a:link, body .g-novisited a:visited{ text-decoration:none !important;}
 .ess_background ul, .ess_background ol, #footer-section ul , ul, ol{ list-style-type:none; padding:0; margin:0;}
 .ess_background div:after, ess_background ul:after, .ess_background ol:after, #footer-section ul:after, #footer-section div:after , ul:after, ol:after, div:after{ clear:both; line-height:0; content:""; visibility:hidden; display:block;}
-#header{ background: #000; border-bottom: solid 1px #ececec}
+#header{ background: #000; border-bottom: solid 1px #ececec; padding: 5px;}
 
 .container { width:1200px; margin:0 auto; vertical-align:top;}
 .pagecontainer > table > tbody > tr > td > table+table{    margin: 0 auto;    width:1200px; max-width:100%}
@@ -37,8 +37,8 @@ body a:link, body .g-novisited a:visited{ text-decoration:none !important;}
 #top-section{ overflow:hidden; width:100%; display:block; background:url(../images/header-bg.jpg) no-repeat 50% 0; padding:0 0 15px; background-size:cover;}
 #CentralArea > p {    color: black;    font-size: 14px;    margin-right: 10px;    padding: 22px 0 0;    text-align: justify;}
 #header-top{ background:#1f1a17; padding:15px;}
-#logo{ float:left; padding:2px 0 2px;}
-#search {float:right;overflow: hidden;position: relative;width:300px; height:40px; margin:26px 0 0; border:solid 1px #54afde; border-radius:5px;}
+#logo{ float:left; padding:3px 0 2px;}
+#search {float:right;overflow: hidden;position: relative;width:300px; height:40px; margin:28px 0 0; border:solid 1px #54afde; border-radius:5px;}
 #search input[type="text"] {background: #fff;border: 0 none;font:400 14px/38px "Roboto",sans-serif;height:40px;text-indent: 10px;width:100%; color:#000000; }
 #search input[type="submit"], #search input[type="button"] {background:#54afde url(https://cdn.rawgit.com/autobuff/eBay/1db2c03e/magnify.png) no-repeat scroll 50% 50%;border: 0 none;height:40px;position: absolute;right: 0;top: 0;width: 40px; cursor:pointer; font-size:0;}
 .top_white{ float:right; padding:15px 0 25px;}
