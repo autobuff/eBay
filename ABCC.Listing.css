@@ -191,7 +191,7 @@ ul, ol {color:#464545;font:400 16px/20px "Roboto",sans-serif;padding:0 0 10px;te
 .slider .grid-item:nth-child(5n+1){ clear:left;}
 
 @media only screen and (max-width: 1198px) {
-.container { width:1000px;}
+.container { width:100%;}
 #shipping-section h3{  padding:10px 0 0 5px; font-size:19px;}
 #shipping-section p{ padding:10px 0 0 5px; font-size:10px;}
 #navigation-panel ul li a{ padding:0 45px;}
