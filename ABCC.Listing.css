@@ -76,7 +76,7 @@ ul, ol{ list-style-type:none; padding:0; margin:0;}
  
 .gift1{ float: left;padding:23px 0;width:24.80%; text-align:center; box-sizing:border-box;}
 /*.gift1+.gift1{ background:url(../images/divider.png) no-repeat 0 50%;}*/
-.gift1 > div {color: #fff;display: inline-block;font:300 18px/20px "Raleway",sans-serif;padding:0 0 0 68px;position: relative;text-align: left; text-transform:capitalize;}
+.gift1 > div {color: #fff;display: inline-block;font:300 18px/20px "Raleway",sans-serif; text-shadow: 1px 1px 2px rgba(0,0,0,.25); padding:0 0 0 68px;position: relative;text-align: left; text-transform:capitalize;}
 .gift1 > div strong{ font:700 18px/20px "Raleway",sans-serif;}
 .gift1 > div img{ position:absolute; left:0; top:-5px;}
 .gift1:nth-child(4n+2){ background:#231f20; transform: skew(-13deg);  }
@@ -115,7 +115,7 @@ ul, ol{ list-style-type:none; padding:0; margin:0;}
 
 #details-left{ width:50%; float:left;}
 #details-right{ width:48%; float:right;}
-#details-right h1{ color:#464545; font:400 32px/35px "Roboto",sans-serif; padding:0 0 10px; text-transform:uppercase; border-bottom:solid 1px #cccccc;}
+#details-right h1{ color:#464545; font:400 32px/35px "Roboto",sans-serif; text-shadow: 1px 1px 2px rgba(0,0,0,.25); padding:0 0 10px; text-transform:uppercase; border-bottom:solid 1px #cccccc;}
 #details-right h3{ color:#373737; font:400 16px/18px "Roboto",sans-serif; text-transform:uppercase;  padding:8px 0 8px; }
 #details-right p{ color:#464545; font:400 16px/20px "Roboto",sans-serif; padding:0 0 10px; text-align: justify}
 ul, ol {color:#464545;font:400 16px/20px "Roboto",sans-serif;padding:0 0 10px;text-align: left ;}
