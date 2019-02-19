@@ -436,6 +436,7 @@ ul, ol {
 #details-right h1 {
   color: #464545;
   font: 400 32px/35px "Railway",sans-serif;
+  text-shadow: 1px 1px 2px rgba(0,0,0,.25);
   padding: 0 0 10px;
   text-transform: uppercase;
   border-bottom: solid 1px #cccccc;
