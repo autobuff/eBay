@@ -905,7 +905,7 @@ div.lcat {
   bottom: 100%;
   content: "";
   height: 103px;
-  background: url(https://cdn.rawgit.com/autobuff/eBay/4b0b376a/footer1.png) no-repeat 50% 50% #000000;
+  background: url(https://rawcdn.githack.com/autobuff/eBay/3b96593a7b0c1e1001eb793fa47ba7e24cbc61fa/footer1.png) no-repeat 50% 50% #000000;
 }
 
 td#CentralArea div.dynpg {
