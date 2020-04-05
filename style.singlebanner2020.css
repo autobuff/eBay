@@ -905,7 +905,7 @@ div.lcat {
   bottom: 100%;
   content: "";
   height: 103px;
-  background: url(https://rawcdn.githack.com/autobuff/eBay/836b43eaf4bddb580dd5dfe95fe50fce5ccb8805/footer1.png) no-repeat 50% 50% #000000;
+  background: url(https://rawcdn.githack.com/autobuff/eBay/30cfa5e50325109aafbea04ab6750b1d92bcbc3c/footer1.png) no-repeat 50% 50% #000000;
 }
 
 td#CentralArea div.dynpg {
@@ -1090,7 +1090,7 @@ div#LeftPanel {
   }
 
   .stBadge:before {
-    background: #000000 url(https://rawcdn.githack.com/autobuff/eBay/1c725cedbaebdae7f25c2e3c733f7934f4073af7/footer2.png) no-repeat 50% 0;
+    background: #000000 url(https://rawcdn.githack.com/autobuff/eBay/30cfa5e50325109aafbea04ab6750b1d92bcbc3c/footer2.png) no-repeat 50% 0;
   }
 
   td#CentralArea div.dynpg td.l, td#CentralArea div.dynpg td.m, td#CentralArea div.dynpg td.r {
@@ -1186,7 +1186,7 @@ div#LeftPanel {
   }
 
   .stBadge:before {
-    background: url(https://rawcdn.githack.com/autobuff/eBay/1c725cedbaebdae7f25c2e3c733f7934f4073af7/footer3.png) no-repeat 50% 0 #000000;
+    background: url(https://rawcdn.githack.com/autobuff/eBay/30cfa5e50325109aafbea04ab6750b1d92bcbc3c/footer3.png) no-repeat 50% 0 #000000;
   }
 
   #fpcap .keywordClass {
@@ -1571,7 +1571,7 @@ div#LeftPanel {
   }
 
   .stBadge:before {
-    background: url(https://cdn.rawgit.com/autobuff/eBay/7590b004/footer4.png) no-repeat 50% 0 #000000;
+    background: url(https://rawcdn.githack.com/autobuff/eBay/30cfa5e50325109aafbea04ab6750b1d92bcbc3c/footer4.png) no-repeat 50% 0 #000000;
     height: 103px;
   }
 
