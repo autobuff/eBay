@@ -497,13 +497,14 @@ ul, ol {
 .ft1 {
   width: 30%;
   float: left;
-  padding: 70px 0 0;
+  padding: 65px 0 0;
 }
 
 .ft2 {
   width: 40%;
   float: left;
   text-align: center;
+   padding: 7px 0 0;
 }
 
 .ft3 {
