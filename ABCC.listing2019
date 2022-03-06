@@ -62,7 +62,7 @@ ul, ol {
 }
 
 #details-right > h3:nth-child(2) {
-  color: #464545;
+  color: #32435d;
   display: inline;
   vertical-align: top;
   font-family: 'Open Sans', sans-serif;
@@ -71,7 +71,7 @@ ul, ol {
 }
 
 #details-right > h3:nth-child(4),#details-right > h3:nth-child(5) {
-  color: #464545;
+  color: #32435d;
   display: inline;
   vertical-align: top;
   font-family: 'Open Sans', sans-serif;
@@ -381,7 +381,7 @@ ul, ol {
 }
 
 .tab-content input[type="radio"]:checked+label, .tab-content > label:hover, .tab-content > a:hover {
-  background: #464545;
+  background: #32435d;
   border: none;
   color: #fff;
   margin-bottom: 0;
@@ -409,7 +409,7 @@ ul, ol {
 
 .accordion-heading.ui-accordion-header-active {
   color: #fff;
-  background: #464545;
+  background: #32435d;
   border: 1px solid #3c1706;
 }
 
@@ -797,7 +797,7 @@ ul, ol {
   #details-right {
     width: 100%;
     float: none;
-    padding: 5px 20px 0;
+    padding: 15px 7px 0;
     text-align: justify;
   }
 
