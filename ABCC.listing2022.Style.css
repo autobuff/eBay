@@ -739,6 +739,10 @@ ul, ol {
     width: 100%;
   }
 
+#header {
+  padding: 6px 0 6px;
+}  
+  
   #shipping-section h3 {
     padding: 10px 0 0 5px;
     font-size: 19px;
@@ -775,7 +779,7 @@ ul, ol {
   .container {
     width: 750px;
   }
-
+ 
   #navigation-panel ul li a {
     padding: 0 10px;
   }
