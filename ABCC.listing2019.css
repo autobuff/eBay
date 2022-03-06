@@ -71,7 +71,7 @@ ul, ol {
 }
 
 #details-right > h3:nth-child(4),#details-right > h3:nth-child(5) {
-  color: #32435d;
+  color: #464545;
   display: inline;
   vertical-align: top;
   font-family: 'Open Sans', sans-serif;
@@ -381,7 +381,7 @@ ul, ol {
 }
 
 .tab-content input[type="radio"]:checked+label, .tab-content > label:hover, .tab-content > a:hover {
-  background: #32435d;
+  background: #464545;
   border: none;
   color: #fff;
   margin-bottom: 0;
@@ -409,7 +409,7 @@ ul, ol {
 
 .accordion-heading.ui-accordion-header-active {
   color: #fff;
-  background: #32435d;
+  background: #464545;
   border: 1px solid #3c1706;
 }
 
